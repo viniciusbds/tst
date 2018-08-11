@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class Solution {
+class PotenciaRecursiva {
 
 	 public static void main(String[] args) {
 
