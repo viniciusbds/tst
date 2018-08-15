@@ -9,15 +9,15 @@ Repositório com minhas soluções para os problemas do tst da disciplina  Labor
 ------------------------------
 
 
-|    | Algoritmo           |
-| -- | ------------------- |
-| 1 | [Potência Recursiva](https://github.com/Viniciuswps/tst-leda/tree/master/potenciaRecursiva) |
-| 2 | [Busca Binária](https://github.com/Viniciuswps/tst-leda/tree/master/buscaBinaria) |
+|    | Algoritmo           | Java | Python |
+| -- | ------------------- | ---- | ------ |
+| 1 | [Potência Recursiva](https://github.com/Viniciuswps/tst-leda/blob/master/potenciaRecursiva/README.md) | [Java](https://github.com/Viniciuswps/tst-leda/tree/master/potenciaRecursiva) | Python|
+| 2 | [Busca Binária](https://github.com/Viniciuswps/tst-leda/blob/master/buscaBinaria/README.md) | [Java](https://github.com/Viniciuswps/tst-leda/tree/master/buscaBinaria) | Python |
 
-|    | Categoria            |
-| -- | ------------------- |
-| 1 | [Algoritmo 1]() |
-| 2 | [Algoritmo 2]() |
-| 3 | [Algoritmo 3]() |
-| 4 | [Algoritmo 4]() |
-| 5 | [Algoritmo 5]() |
+|    | Categoria            | Java | Python |
+| -- | -------------------- | ---- | ------ |
+| 1 | [Algoritmo 1]() | Java | Python |
+| 2 | [Algoritmo 2]() | Java | Python |
+| 3 | [Algoritmo 3]() | Java | Python |
+| 4 | [Algoritmo 4]() | Java | Python |
+| 5 | [Algoritmo 5]() | Java | Python |
