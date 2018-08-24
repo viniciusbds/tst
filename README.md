@@ -16,3 +16,4 @@ Repositório com soluções para os problemas do tst da disciplina  Laboratório
 | 5 | [Inverte Pilha](https://github.com/Viniciuswps/tst-leda/blob/master/InvertePilha/README.md) | [Java](https://github.com/Viniciuswps/tst-leda/tree/master/InvertePilha/InvertePilha.java) | Python |
 | 6 | [Inverte Frase](https://github.com/Viniciuswps/tst-leda/blob/master/InverteFrase/README.md) | [Java](https://github.com/Viniciuswps/tst-leda/tree/master/InverteFrase/InverteFrase.java) | Python |
 | 7 | [Encontra Elemento](https://github.com/Viniciuswps/tst-leda/blob/master/EncontraElemento/README.md) | [Java](https://github.com/Viniciuswps/tst-leda/tree/master/EncontraElemento/EncontraElemento.java) | Python |
+| 8 | [Sem Par](https://github.com/Viniciuswps/tst-leda/blob/master/SemPar/README.md) | [Java](https://github.com/Viniciuswps/tst-leda/tree/master/SemPar/SemPar.java) | Python |
