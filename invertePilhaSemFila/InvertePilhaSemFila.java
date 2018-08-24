@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import java.util.Stack;
 
-class invertePilhaSemFila {
+class InvertePilhaSemFila {
 
 	public static void main(String[] args) {
 

@@ -7,5 +7,6 @@
 	<classpathentry kind="src" path="bubbleSort"/>
 	<classpathentry kind="src" path="invertePilha"/>
 	<classpathentry kind="src" path="invertePilhaSemFila"/>
+	<classpathentry kind="src" path="inverteFrase"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
