@@ -5,5 +5,7 @@
 	<classpathentry kind="src" path="potenciaRecursiva"/>
 	<classpathentry kind="src" path="buscaBinaria"/>
 	<classpathentry kind="src" path="bubbleSort"/>
+	<classpathentry kind="src" path="invertePilha"/>
+	<classpathentry kind="src" path="invertePilhaSemFila"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
