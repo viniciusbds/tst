@@ -11,5 +11,6 @@
 	<classpathentry kind="src" path="EncontraElemento"/>
 	<classpathentry kind="src" path="Parenteses"/>
 	<classpathentry kind="src" path="SemPar"/>
+	<classpathentry kind="src" path="DoisSomam"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
