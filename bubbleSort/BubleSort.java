@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class Solution {
+class BubleSort {
 
 	public static void main(String[] args) {
 
