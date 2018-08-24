@@ -1,10 +1,8 @@
-# Tst LEDA
+# [Tst LEDA](http://tst-eda.splab.ufcg.edu.br/)
 
 ------------------------------
 
 Repositório com soluções para os problemas do tst da disciplina  Laboratório de Estrutura de Dados e Algoritmos UFCG 2018.2
-
-[tst-eda.splab.ufcg.edu.br](http://tst-eda.splab.ufcg.edu.br/)
 
 ------------------------------
 
