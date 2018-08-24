@@ -9,5 +9,7 @@
 	<classpathentry kind="src" path="InvertePilhaSemFila"/>
 	<classpathentry kind="src" path="InverteFrase"/>
 	<classpathentry kind="src" path="EncontraElemento"/>
+	<classpathentry kind="src" path="Parenteses"/>
+	<classpathentry kind="src" path="SemPar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
