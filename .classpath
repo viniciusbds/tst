@@ -2,12 +2,12 @@
 <classpath>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
-	<classpathentry kind="src" path="potenciaRecursiva"/>
-	<classpathentry kind="src" path="buscaBinaria"/>
-	<classpathentry kind="src" path="bubbleSort"/>
-	<classpathentry kind="src" path="invertePilha"/>
-	<classpathentry kind="src" path="invertePilhaSemFila"/>
-	<classpathentry kind="src" path="inverteFrase"/>
-	<classpathentry kind="src" path="encontraElemento"/>
+	<classpathentry kind="src" path="PotenciaRecursiva"/>
+	<classpathentry kind="src" path="BuscaBinaria"/>
+	<classpathentry kind="src" path="BubbleSort"/>
+	<classpathentry kind="src" path="InvertePilha"/>
+	<classpathentry kind="src" path="InvertePilhaSemFila"/>
+	<classpathentry kind="src" path="InverteFrase"/>
+	<classpathentry kind="src" path="EncontraElemento"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
