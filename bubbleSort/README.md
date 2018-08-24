@@ -1,4 +1,4 @@
-## Bubble passo a passo
+# Bubble passo a passo
 
 Implemente o BubbleSort.
 

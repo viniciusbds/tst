@@ -1,4 +1,4 @@
-## Inverte Pilha sem Fila
+# Inverte Pilha sem Fila
 
 Implemente um programa que leia os valores que, dada uma pilha como entrada, inverte os valores dessa pilha. Contudo, dessa vez, você não pode usar uma fila como auxiliar. De fato, há como inverter a pilha usando apenas algumas variáveis temporárias.
 

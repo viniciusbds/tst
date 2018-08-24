@@ -1,4 +1,4 @@
-## Inverte Pilha
+# Inverte Pilha
 
 Implemente um programa que leia os valores que, dada uma pilha como entrada, inverte os valores dessa pilha.
 
