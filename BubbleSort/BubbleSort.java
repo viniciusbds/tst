@@ -24,15 +24,12 @@ class BubbleSort {
 
 		if (ordenado) {
 			System.out.println(imprimeArray(array));
-		} 
-		else {
+		} else {
 			while (!ordenado) {
 				flag = false;
 				for (int i = 1; i < array.length; i++) {
 					if (array[i] < array[i - 1]) {
-						int aux = array[i - 1];
-						array[i - 1] = array[i];
-						array[i] = aux;
+						swap(array, i, i - 1);
 						flag = true;
 					}
 				}
@@ -53,6 +50,12 @@ class BubbleSort {
 			}
 		}
 		return true;
+	}
+	
+	private static void swap(int[] array, int i, int j) {
+		int aux = array[i];
+		array[i] = array[j];
+		array[j] = aux;
 	}
 
 	private static String imprimeArray(int[] array) {
