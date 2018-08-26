@@ -1,6 +1,4 @@
-import java.util.HashSet;
 import java.util.Scanner;
-import java.util.Set;
 
 class VerificacaoDeElementosDuplicados {
 
@@ -11,7 +9,7 @@ class VerificacaoDeElementosDuplicados {
 		for (int i = 0; i < array.length; i++) {
 			array[i] = Integer.parseInt(sequencia[i]);
 		}
-		
+
 		if (contemRepetidos(array)) {
 			System.out.println("true");
 		} else {
@@ -21,12 +19,11 @@ class VerificacaoDeElementosDuplicados {
 	}
 
 	private static boolean contemRepetidos(int[] array) {
-		Set<Integer> conjunto = new HashSet<Integer>();
 		for (int i = 0; i < array.length; i++) {
-			if (conjunto.contains(array[i])) {
-				return true;
-			} else {
-				conjunto.add(array[i]);
+			for (int j = i + 1; j < array.length; j++) {
+				if (array[i] == array[j]) {
+					return true;
+				}
 			}
 		}
 		return false;
