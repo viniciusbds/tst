@@ -24,3 +24,4 @@ Repositório com soluções para os problemas do tst da disciplina  Laboratório
 | 7 | [Sem Par](https://github.com/Viniciuswps/tst-leda/blob/master/SemPar/README.md) | [Java](https://github.com/Viniciuswps/tst-leda/tree/master/SemPar/SemPar.java) |
 | 8 | [Selection Sort passo a passo](https://github.com/Viniciuswps/tst-leda/blob/master/SelectionSortPassoAPasso/README.md) | [Java](https://github.com/Viniciuswps/tst-leda/tree/master/SelectionSortPassoAPasso/SelectionSortPassoAPasso.java) | 
 | 9 | [Verificação de elementos duplicados](https://github.com/Viniciuswps/tst-leda/blob/master/VerificacaoDeElementosDuplicados/README.md) | [Java](https://github.com/Viniciuswps/tst-leda/tree/master/VerificacaoDeElementosDuplicados/VerificacaoDeElementosDuplicados.java)|
+| 10 | [Parenteses](https://github.com/Viniciuswps/tst-leda/blob/master/Parenteses/README.md) | [Java](https://github.com/Viniciuswps/tst-leda/tree/master/Parenteses/Parenteses.java)|
