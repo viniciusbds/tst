@@ -2,20 +2,26 @@
 
 ------------------------------
 
-Repositório com soluções para os problemas do tst da disciplina  Laboratório de Estrutura de Dados e Algoritmos UFCG 2018.2
+**Repositório com soluções para os problemas do tst da disciplina  Laboratório de Estrutura de Dados e Algoritmos UFCG 2018.2.**
 
-
-**todos os algoritmos(soluções) foram desenvolvidas na linguagem java**
-
-**como o TST já realiza testes automáticos durante as submissões não foi necessário criar novos testes**
+A ideia é praticar a implementação de algoritmos e sempre tentar encontrar a melhor maneira de resolução de problemas.
 
 ------------------------------
 
+## Detalhes
+
+> Todos os algoritmos / soluções foram desenvolvidas na linguagem java
+
+> Como o TST já realiza testes automáticos durante as submissões, não foi necessário criar novos testes
+
+------------------------------
+
+## Lista de Problemas
 
 |   | Algoritmo           | Solução | 
 | - | ------------------- | ------- |
 | 1 | [Potência Recursiva](https://github.com/Viniciuswps/tst-leda/blob/master/PotenciaRecursiva/README.md) | [Java](https://github.com/Viniciuswps/tst-leda/blob/master/PotenciaRecursiva/PotenciaRecursiva.java) |
-| 1 | [Potência Recursiva "Elegante"](https://github.com/Viniciuswps/tst-leda/blob/master/PotenciaRecursiva/README.md) | [Java](https://github.com/Viniciuswps/tst-leda/blob/master/PotenciaRecursiva/solucaoElegante/SolucaoElegante.java) |
+| 1 | [Potência Recursiva Elegante*](https://github.com/Viniciuswps/tst-leda/blob/master/PotenciaRecursiva/README.md) | [Java](https://github.com/Viniciuswps/tst-leda/blob/master/PotenciaRecursiva/solucaoElegante/SolucaoElegante.java) |
 | 2 | [Busca Binária](https://github.com/Viniciuswps/tst-leda/blob/master/BuscaBinaria/README.md) | [Java](https://github.com/Viniciuswps/tst-leda/tree/master/BuscaBinaria/BuscaBinaria.java) |
 | 3 | [Bubble Sort passo a passo](https://github.com/Viniciuswps/tst-leda/blob/master/BubbleSort/README.md) | [Java](https://github.com/Viniciuswps/tst-leda/tree/master/BubbleSort/BubbleSort.java) | 
 | 4 | [Inverte Pilha](https://github.com/Viniciuswps/tst-leda/blob/master/InvertePilha/README.md) | [Java](https://github.com/Viniciuswps/tst-leda/tree/master/InvertePilha/InvertePilha.java) | 
@@ -30,3 +36,11 @@ Repositório com soluções para os problemas do tst da disciplina  Laboratório
 | 13 | [Move Impostor](https://github.com/Viniciuswps/tst-leda/blob/master/MoveImpostor/README.md) | [Java](https://github.com/Viniciuswps/tst-leda/tree/master/MoveImpostor/MoveImpostor.java)|
 | 14 | [Insere Primeiro](https://github.com/Viniciuswps/tst-leda/blob/master/InserePrimeiro/README.md) | [Java](https://github.com/Viniciuswps/tst-leda/tree/master/InserePrimeiro/InserePrimeiro.java)|
 | 15 | [Elemento Sobrando](https://github.com/Viniciuswps/tst-leda/blob/master/ElementoSobrando/README.md) | [Java](https://github.com/Viniciuswps/tst-leda/tree/master/ElementoSobrando/ElementoSobrando.java)|
+
+> * Os problemas em que seu nome está acompanhado com a palavra "Elegante" foram resolvidos de forma diferente do esperado pelo tst, geralmente mais "elegantes" por possuir uma funcionalidade a mais ou outros fatores. Portanto, na maioria dos casos, estes problemas não passam nos testes do tst.
+
+------------------------------
+
+## Como Colaborar
+
+Caso **encontre um erro ou uma maneira mais eficiente / clara de resolver algum destes problemas**, sinta-se livre de fazer um fork, modificar e solicitar um pullrequest.
