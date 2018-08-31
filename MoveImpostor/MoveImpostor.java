@@ -15,14 +15,15 @@ class MoveImpostor {
 	}
 	
 	private static void moveImpostor(int[] array) {
+		boolean acabou = false;
 		int indexImpostor = getIndiceImpostor(array);
-		boolean impostorNaEstaNaPosicaoCorreta = false;
-		int i = indexImpostor;
-		while (i > 0 && !impostorNaEstaNaPosicaoCorreta) {
-			if (array[i] < array[i-1]) {
-				swap(array, i, i-1);
+		while (indexImpostor > 0 && !acabou) {
+			if (array[indexImpostor] < array[indexImpostor-1]) {
+				swap(array, indexImpostor, indexImpostor - 1);
+			} else {
+				acabou = true;
 			}
-			i--;
+			indexImpostor--;
 		}
 	}
 	
