@@ -16,5 +16,6 @@
 	<classpathentry kind="src" path="VerificacaoDeElementosDuplicados"/>
 	<classpathentry kind="src" path="PosicoesElemento"/>
 	<classpathentry kind="src" path="MoveImpostor"/>
+	<classpathentry kind="src" path="InserePrimeiro"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
