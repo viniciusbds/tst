@@ -15,5 +15,6 @@
 	<classpathentry kind="src" path="SelectionSortPassoAPasso"/>
 	<classpathentry kind="src" path="VerificacaoDeElementosDuplicados"/>
 	<classpathentry kind="src" path="PosicoesElemento"/>
+	<classpathentry kind="src" path="MoveImpostor"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
