@@ -1,10 +1,9 @@
 # [Tst LEDA](http://tst-eda.splab.ufcg.edu.br/)
 
-------------------------------
 
 **Repositório com soluções para os problemas do tst da disciplina  Laboratório de Estrutura de Dados e Algoritmos UFCG 2018.2.**
 
-A ideia é praticar a implementação de algoritmos e sempre tentar encontrar a melhor maneira de resolução de problemas.
+A ideia é praticar a implementação de algoritmos e desenvolver o hábito de tentar encontrar a melhor maneira de resolução de problemas e pensar na solução antes de colocar a mão no teclado.
 
 ------------------------------
 
@@ -18,7 +17,7 @@ A ideia é praticar a implementação de algoritmos e sempre tentar encontrar a 
 
 ## Lista de Problemas
 
-|   | Algoritmo           | Solução | 
+|   | Problema           | Solução | 
 | - | ------------------- | ------- |
 | 1 | [Potência Recursiva](https://github.com/Viniciuswps/tst-leda/blob/master/PotenciaRecursiva/README.md) | [Java](https://github.com/Viniciuswps/tst-leda/blob/master/PotenciaRecursiva/PotenciaRecursiva.java) |
 | 1 | [Potência Recursiva Elegante*](https://github.com/Viniciuswps/tst-leda/blob/master/PotenciaRecursiva/README.md) | [Java](https://github.com/Viniciuswps/tst-leda/blob/master/PotenciaRecursiva/solucaoElegante/SolucaoElegante.java) |
