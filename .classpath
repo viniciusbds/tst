@@ -17,5 +17,6 @@
 	<classpathentry kind="src" path="PosicoesElemento"/>
 	<classpathentry kind="src" path="MoveImpostor"/>
 	<classpathentry kind="src" path="InserePrimeiro"/>
+	<classpathentry kind="src" path="ElementoSobrando"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
