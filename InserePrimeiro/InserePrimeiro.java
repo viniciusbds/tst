@@ -12,15 +12,10 @@ class InserePrimeiro {
 	}
 
 	private static void inserePrimeiro(int[] array) {
-		boolean estaOrdenado = false;
 		int i = 0;
-		while (!estaOrdenado && i < array.length - 1) {
-			if (array[i] > array[i+1]) {
-				swap(array, i, i+1);
-				i++;
-			} else {
-				estaOrdenado = true;
-			}
+		while (i < array.length - 1 && array[i + 1] < array[i]) {
+			swap(array, i + 1, i);
+			i++;
 		}
 	}
 
