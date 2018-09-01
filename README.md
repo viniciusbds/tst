@@ -35,6 +35,7 @@ A ideia é praticar a implementação de algoritmos e desenvolver o hábito de t
 | 13 | [Move Impostor](https://github.com/Viniciuswps/tst-leda/blob/master/MoveImpostor/README.md) | [Java](https://github.com/Viniciuswps/tst-leda/tree/master/MoveImpostor/MoveImpostor.java)|
 | 14 | [Insere Primeiro](https://github.com/Viniciuswps/tst-leda/blob/master/InserePrimeiro/README.md) | [Java](https://github.com/Viniciuswps/tst-leda/tree/master/InserePrimeiro/InserePrimeiro.java)|
 | 15 | [Elemento Sobrando](https://github.com/Viniciuswps/tst-leda/blob/master/ElementoSobrando/README.md) | [Java](https://github.com/Viniciuswps/tst-leda/tree/master/ElementoSobrando/ElementoSobrando.java)|
+| 16 | [Insere Ordenado Ultimo](https://github.com/Viniciuswps/tst-leda/blob/master/InsereOrdenadoUltimo/README.md) | [Java](https://github.com/Viniciuswps/tst-leda/tree/master/InsereOrdenadoUltimo/InsereOrdenadoUltimo.java)|
 
 > * Os problemas em que seu nome está acompanhado com a palavra "Elegante" foram resolvidos de forma diferente do esperado pelo tst, geralmente mais "elegantes" por possuir uma funcionalidade a mais ou outros fatores. Portanto, na maioria dos casos, estes problemas não passam nos testes do tst.
 
