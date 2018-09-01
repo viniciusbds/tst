@@ -1,7 +1,7 @@
 # [Tst LEDA](http://tst-eda.splab.ufcg.edu.br/)
 
 
-**Repositório com soluções para os problemas do tst da disciplina  Laboratório de Estrutura de Dados e Algoritmos UFCG 2018.2.**
+**Repositório com soluções para os problemas do Tst da disciplina  Laboratório de Estrutura de Dados e Algoritmos UFCG 2018.2.**
 
 A ideia é praticar a implementação de algoritmos e desenvolver o hábito de tentar encontrar a melhor maneira de resolução de problemas e pensar na solução antes de colocar a mão no teclado.
 
@@ -9,9 +9,9 @@ A ideia é praticar a implementação de algoritmos e desenvolver o hábito de t
 
 ## Detalhes
 
-> Todos os algoritmos / soluções foram desenvolvidas na linguagem java
+> Todos os algoritmos / soluções foram desenvolvidos na linguagem java
 
-> Como o TST já realiza testes automáticos durante as submissões, não foi necessário criar novos testes
+> Como o Tst já realiza testes automáticos durante as submissões, não foi necessário criar novos testes
 
 ------------------------------
 
@@ -38,7 +38,7 @@ A ideia é praticar a implementação de algoritmos e desenvolver o hábito de t
 | 16 | [Insere Ultimo](https://github.com/Viniciuswps/tst-leda/blob/master/InsereUltimo/README.md) | [Java](https://github.com/Viniciuswps/tst-leda/tree/master/InsereUltimo/InsereUltimo.java)|
 | 17 | [Frequencia Elemento](https://github.com/Viniciuswps/tst-leda/blob/master/FrequenciaElemento/README.md) | [Java](https://github.com/Viniciuswps/tst-leda/tree/master/FrequenciaElemento/FrequenciaElemento.java)|
 
-> * Os problemas em que seu nome está acompanhado com a palavra "Elegante" foram resolvidos de forma diferente do esperado pelo tst, geralmente são mais "elegantes" por possuirem uma funcionalidade a mais ou outros fatores. Portanto, na maioria dos casos, a resolução destes problemas não passam nos testes do tst.
+> * Os problemas em que seu nome está acompanhado com a palavra "Elegante" foram resolvidos de forma diferente do esperado pelo Tst, geralmente são mais "elegantes" por possuirem uma funcionalidade a mais ou outros fatores. Portanto, na maioria dos casos, a resolução destes problemas não passam nos testes do Tst.
 
 ------------------------------
 
