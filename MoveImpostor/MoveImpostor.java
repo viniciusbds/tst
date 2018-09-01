@@ -4,37 +4,24 @@ import java.util.Scanner;
 class MoveImpostor {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
-		String[] entrada = scan.nextLine().split(" ");
-		int[] array = new int[entrada.length];
-		for (int i = 0; i < array.length; i++) {
-			array[i] = Integer.parseInt(entrada[i]);
-		}
+		int[] array = getArrayInteiros(scan);
 		moveImpostor(array);
 		System.out.println(Arrays.toString(array));
 		scan.close();
 	}
 	
 	private static void moveImpostor(int[] array) {
-		boolean acabou = false;
 		int indexImpostor = getIndiceImpostor(array);
-		while (indexImpostor > 0 && !acabou) {
-			if (array[indexImpostor] < array[indexImpostor-1]) {
-				swap(array, indexImpostor, indexImpostor - 1);
-			} else {
-				acabou = true;
-			}
+		while (indexImpostor > 0 && array[indexImpostor - 1] > array[indexImpostor] ) {
+			swap(array, indexImpostor - 1, indexImpostor);
 			indexImpostor--;
 		}
 	}
 	
 	private static int getIndiceImpostor(int[] array) {
-		int indexImpostor = -1;
-		int i = 0;
-		while (indexImpostor < 0 && i < array.length - 1) {
-			if (array[i] > array[i + 1]) {
-				indexImpostor = i + 1;
-			}
-			i++;
+		int indexImpostor = 1;
+		while (array[indexImpostor - 1] <= array[indexImpostor]) {
+			indexImpostor++;
 		}
 		return indexImpostor;
 	}
@@ -43,6 +30,15 @@ class MoveImpostor {
 		int aux = array[i];
 		array[i] = array[j];
 		array[j] = aux;
+	}
+	
+	private static int[] getArrayInteiros(Scanner scan) {
+		String[] entrada = scan.nextLine().split(" ");
+		int[] array = new int[entrada.length];
+		for (int i = 0; i < array.length; i++) {
+			array[i] = Integer.parseInt(entrada[i]);
+		}
+		return array;
 	}
 	
 }
