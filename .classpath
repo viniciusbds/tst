@@ -18,7 +18,7 @@
 	<classpathentry kind="src" path="MoveImpostor"/>
 	<classpathentry kind="src" path="InserePrimeiro"/>
 	<classpathentry kind="src" path="ElementoSobrando"/>
-	<classpathentry kind="src" path="InsereOrdenadoUltimo"/>
+	<classpathentry kind="src" path="InsereUltimo"/>
 	<classpathentry kind="src" path="FrequenciaElemento"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

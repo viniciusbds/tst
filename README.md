@@ -35,7 +35,7 @@ A ideia é praticar a implementação de algoritmos e desenvolver o hábito de t
 | 13 | [Move Impostor](https://github.com/Viniciuswps/tst-leda/blob/master/MoveImpostor/README.md) | [Java](https://github.com/Viniciuswps/tst-leda/tree/master/MoveImpostor/MoveImpostor.java)|
 | 14 | [Insere Primeiro](https://github.com/Viniciuswps/tst-leda/blob/master/InserePrimeiro/README.md) | [Java](https://github.com/Viniciuswps/tst-leda/tree/master/InserePrimeiro/InserePrimeiro.java)|
 | 15 | [Elemento Sobrando](https://github.com/Viniciuswps/tst-leda/blob/master/ElementoSobrando/README.md) | [Java](https://github.com/Viniciuswps/tst-leda/tree/master/ElementoSobrando/ElementoSobrando.java)|
-| 16 | [Insere Ordenado Ultimo](https://github.com/Viniciuswps/tst-leda/blob/master/InsereOrdenadoUltimo/README.md) | [Java](https://github.com/Viniciuswps/tst-leda/tree/master/InsereOrdenadoUltimo/InsereOrdenadoUltimo.java)|
+| 16 | [Insere Ultimo](https://github.com/Viniciuswps/tst-leda/blob/master/InsereUltimo/README.md) | [Java](https://github.com/Viniciuswps/tst-leda/tree/master/InsereUltimo/InsereUltimo.java)|
 | 17 | [Frequencia Elemento](https://github.com/Viniciuswps/tst-leda/blob/master/FrequenciaElemento/README.md) | [Java](https://github.com/Viniciuswps/tst-leda/tree/master/FrequenciaElemento/FrequenciaElemento.java)|
 
 > * Os problemas em que seu nome está acompanhado com a palavra "Elegante" foram resolvidos de forma diferente do esperado pelo tst, geralmente são mais "elegantes" por possuirem uma funcionalidade a mais ou outros fatores. Portanto, na maioria dos casos, a resolução destes problemas não passam nos testes do tst.

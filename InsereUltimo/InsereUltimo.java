@@ -1,7 +1,7 @@
 import java.util.Arrays;
 import java.util.Scanner;
 
-class InsereOrdenadoUltimo {
+class InsereUltimo {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 		int[] array = getArrayInteiros(scan);
@@ -11,15 +11,10 @@ class InsereOrdenadoUltimo {
 	}
 
 	private static void insereUltimo(int[] array) {
-		boolean estaOrdenado = false;
 		int i = array.length - 1;
-		while (!estaOrdenado && i > 0) {
-			if (array[i] < array[i - 1]) {
-				swap(array, i, i - 1);
-				i--;
-			} else {
-				estaOrdenado = true;
-			}
+		while (i > 0 && array[i] < array[i - 1]) {
+			swap(array, i, i - 1);
+			i--;
 		}
 	}
 
