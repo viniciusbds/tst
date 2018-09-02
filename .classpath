@@ -21,5 +21,6 @@
 	<classpathentry kind="src" path="InsereUltimo"/>
 	<classpathentry kind="src" path="FrequenciaElemento"/>
 	<classpathentry kind="src" path="WarmUp"/>
+	<classpathentry kind="src" path="3N+1"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
