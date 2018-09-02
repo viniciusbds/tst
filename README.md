@@ -37,6 +37,7 @@ A ideia é praticar a implementação de algoritmos e desenvolver o hábito de t
 | 15 | [Elemento Sobrando](https://github.com/Viniciuswps/tst-leda/blob/master/ElementoSobrando/README.md) | [Java](https://github.com/Viniciuswps/tst-leda/tree/master/ElementoSobrando/ElementoSobrando.java)|
 | 16 | [Insere Ultimo](https://github.com/Viniciuswps/tst-leda/blob/master/InsereUltimo/README.md) | [Java](https://github.com/Viniciuswps/tst-leda/tree/master/InsereUltimo/InsereUltimo.java)|
 | 17 | [Frequencia Elemento](https://github.com/Viniciuswps/tst-leda/blob/master/FrequenciaElemento/README.md) | [Java](https://github.com/Viniciuswps/tst-leda/tree/master/FrequenciaElemento/FrequenciaElemento.java)|
+| 18 | [Warm Up](https://github.com/Viniciuswps/tst-leda/blob/master/WarmUp/README.md) | [Java](https://github.com/Viniciuswps/tst-leda/tree/master/WarmUp/WarmUp.java)|
 
 > * Os problemas em que seu nome está acompanhado com a palavra "Elegante" foram resolvidos de forma diferente do esperado pelo Tst, geralmente são mais "elegantes" por possuirem uma funcionalidade a mais ou outros fatores. Portanto, na maioria dos casos, a resolução destes problemas não passam nos testes do Tst.
 
