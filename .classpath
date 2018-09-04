@@ -22,5 +22,6 @@
 	<classpathentry kind="src" path="FrequenciaElemento"/>
 	<classpathentry kind="src" path="WarmUp"/>
 	<classpathentry kind="src" path="3N+1"/>
+	<classpathentry kind="src" path="BuscaBinariaRecursiva"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
