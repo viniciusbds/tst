@@ -27,5 +27,6 @@
 	<classpathentry kind="src" path="InsertionSortRecursivo"/>
 	<classpathentry kind="src" path="SelectionSortRecursivo"/>
 	<classpathentry kind="src" path="TrocaVizinhos"/>
+	<classpathentry kind="src" path="VetorCircular"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
