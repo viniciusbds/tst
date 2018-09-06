@@ -39,7 +39,7 @@ A ideia é praticar a implementação de algoritmos e desenvolver o hábito de t
 | 17 | [Frequencia Elemento](https://github.com/Viniciuswps/tst-leda/blob/master/FrequenciaElemento/README.md) | [Java](https://github.com/Viniciuswps/tst-leda/tree/master/FrequenciaElemento/FrequenciaElemento.java)|
 | 18 | [Warm Up](https://github.com/Viniciuswps/tst-leda/blob/master/WarmUp/README.md) | [Java](https://github.com/Viniciuswps/tst-leda/tree/master/WarmUp/WarmUp.java)|
 | 19 | [3N + 1](https://github.com/Viniciuswps/tst-leda/blob/master/3N+1/README.md) | [Java](https://github.com/Viniciuswps/tst-leda/tree/master/3N+1/TresNmais1.java)|
-| 20 | [Busca Binária Recursiva](https://github.com/Viniciuswps/tst-leda/blob/master/buscaBinariaRecursiva/README.md) | [Java](https://github.com/Viniciuswps/tst-leda/tree/master/buscaBinariaRecursiva/BuscaBinariaRecursiva.java)|
+| 20 | [Busca Binária Recursiva](https://github.com/Viniciuswps/tst-leda/blob/master/BuscaBinariaRecursiva/README.md) | [Java](https://github.com/Viniciuswps/tst-leda/tree/master/BuscaBinariaRecursiva/BuscaBinariaRecursiva.java)|
 
 > * Os problemas em que seu nome está acompanhado com a palavra "Elegante" foram resolvidos de forma diferente do esperado pelo Tst, geralmente são mais "elegantes" por possuirem uma funcionalidade a mais ou outros fatores. Portanto, na maioria dos casos, a resolução destes problemas não passam nos testes do Tst.
 
