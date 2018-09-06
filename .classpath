@@ -23,5 +23,8 @@
 	<classpathentry kind="src" path="WarmUp"/>
 	<classpathentry kind="src" path="3N+1"/>
 	<classpathentry kind="src" path="BuscaBinariaRecursiva"/>
+	<classpathentry kind="src" path="BuscaLinearRecursiva"/>
+	<classpathentry kind="src" path="InsertionSortRecursivo"/>
+	<classpathentry kind="src" path="SelectionSortRecursivo"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
