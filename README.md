@@ -13,6 +13,8 @@ A ideia é praticar a implementação de algoritmos e desenvolver o hábito de t
 
 > Como o Tst já realiza testes automáticos durante as submissões, não foi necessário criar novos testes
 
+> Alguns métodos - como o swap, por exemplo - poderiam ser extraídos para um pacote Util, optei por não fazer isso, pois o TsT não teria acesso a este pacote.
+
 ------------------------------
 
 ## Lista de Problemas
