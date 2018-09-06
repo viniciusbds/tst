@@ -5,11 +5,7 @@ class SelectionSortPassoAPasso {
 
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
-		String[] entrada = scan.nextLine().split(" ");
-		int[] array = new int[entrada.length];
-		for ( int i = 0; i < array.length; i++) {
-			array[i] = Integer.parseInt(entrada[i]);
-		}
+		int[] array = getArrayInteiros(scan);
 		sort(array);
 		scan.close();
 	}
@@ -36,4 +32,12 @@ class SelectionSortPassoAPasso {
 		array[i] = aux;
 	}
 
+	private static int[] getArrayInteiros(Scanner scan) {
+		String[] entrada = scan.nextLine().split(" ");
+		int[] array = new int[entrada.length];
+		for (int i = 0; i < array.length; i++) {
+			array[i] = Integer.parseInt(entrada[i]);
+		}
+		return array;
+	}
 }
