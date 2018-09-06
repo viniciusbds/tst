@@ -9,7 +9,6 @@ class BuscaBinariaRecursiva {
 		if (buscaBinariaRecursiva(numero, array) == -1) {
 			System.out.println(-1);
 		}
-
 	}
 
 	private static int buscaBinariaRecursiva(int elemento, int[] array) {
@@ -17,19 +16,16 @@ class BuscaBinariaRecursiva {
 	}
 
 	private static int search(int elemento, int array[], int esquerda, int direita) {
-		
 		int meio = (esquerda + direita) / 2;
-		System.out.println(meio);
-		if (esquerda < direita) {
+		if (esquerda <= direita) {
+			System.out.println(meio);
 			if (elemento == array[meio]) {
 				return meio;
-			}
-			else if (elemento < array[meio]) {
+			} else if (elemento < array[meio]) {
 				return search(elemento, array, esquerda, meio - 1);
 			} else {
 				return search(elemento, array, meio + 1, direita);
 			}
-			
 		}
 		return -1;
 	}
