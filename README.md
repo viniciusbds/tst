@@ -3,7 +3,7 @@
 
 **Repositório com soluções para os problemas do Tst da disciplina  Laboratório de Estrutura de Dados e Algoritmos UFCG 2018.2.**
 
-A ideia é praticar a implementação de algoritmos e desenvolver o hábito de tentar encontrar a melhor maneira de resolução de problemas e pensar na solução antes de colocar a mão no teclado.
+A ideia é praticar a implementação de algoritmos, tentar encontrar a melhor solução e pensar na mesma antes de colocar a mão no teclado.
 
 ------------------------------
 
