@@ -48,7 +48,8 @@ A ideia é praticar a implementação de algoritmos e desenvolver o hábito de t
 | 24 | [Troca Vizinhos](https://github.com/Viniciuswps/tst-leda/blob/master/TrocaVizinhos/README.md) | [Java](https://github.com/Viniciuswps/tst-leda/tree/master/TrocaVizinhos/TrocaVizinhos.java)|
 | 25 | [Vetor Circular](https://github.com/Viniciuswps/tst-leda/blob/master/VetorCircular/README.md) | [Java](https://github.com/Viniciuswps/tst-leda/tree/master/VetorCircular/VetorCircular.java)|
 | 26 | [Teorema Mestre](https://github.com/Viniciuswps/tst-leda/blob/master/TeoremaMestre/README.md) | [Java](https://github.com/Viniciuswps/tst-leda/tree/master/TeoremaMestre/TeoremaMestre.java)|
-| 26 | [Teorema Mestre Elegante*](https://github.com/Viniciuswps/tst-leda/blob/master/TeoremaMestre/README.md) | [Java](https://github.com/Viniciuswps/tst-leda/tree/master/TeoremaMestre/solucaoElegante/SolucaoElegante.java)|
+| 26 | [Teorema Mestre Elegante*](https://github.com/Viniciuswps/tst-leda/blob/master/TeoremaMestre/README.md) | [Java](https://github.com/Viniciuswps/tst-leda/tree/master/TeoremaMestre/SolucaoElegante/SolucaoElegante.java)|
+| 27 | [Estatística de Ordem](https://github.com/Viniciuswps/tst-leda/blob/master/EstatisticaDeOrdem/README.md) | [Java](https://github.com/Viniciuswps/tst-leda/tree/master/EstatisticaDeOrdem/EstatisticaDeOrdem.java)|
 
 > * Os problemas em que seu nome está acompanhado com a palavra "Elegante" foram resolvidos de forma diferente do esperado pelo Tst, geralmente são mais "elegantes" por possuirem uma funcionalidade a mais ou outros fatores. Portanto, na maioria dos casos, a resolução destes problemas não passam nos testes do Tst.
 
