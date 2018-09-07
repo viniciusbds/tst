@@ -9,18 +9,18 @@ A ideia é praticar a implementação de algoritmos e desenvolver o hábito de t
 
 ## Detalhes
 
-> Todos os algoritmos / soluções foram desenvolvidos na linguagem java
+> Todos os algoritmos / soluções foram desenvolvidos na linguagem java.
 
-> Como o Tst já realiza testes automáticos durante as submissões, não foi necessário criar novos testes
+> Como o Tst já realiza testes automáticos durante as submissões, não foi necessário criar novos testes.
 
-> Alguns métodos por serem usados muitas vezes - como o swap, por exemplo - poderiam ser extraídos para um pacote Util, optei por não fazer isso, pois o corretor do Tst não teria acesso a este pacote.
+> Alguns métodos (como o swap e getArrayInteiros, por exemplo), por serem usados muitas vezes, poderiam ter sido extraídos para um pacote Util, optei por não fazer isso, pois o corretor do Tst não teria acesso a este pacote.
 
 ------------------------------
 
 ## Lista de Problemas
 
 |   | Problema           | Solução | 
-| - | ------------------- | ------- |
+| - | ------------------ | ------- |
 | 1 | [Potência Recursiva](https://github.com/Viniciuswps/tst-leda/blob/master/PotenciaRecursiva/README.md) | [Java](https://github.com/Viniciuswps/tst-leda/blob/master/PotenciaRecursiva/PotenciaRecursiva.java) |
 | 1 | [Potência Recursiva Elegante*](https://github.com/Viniciuswps/tst-leda/blob/master/PotenciaRecursiva/README.md) | [Java](https://github.com/Viniciuswps/tst-leda/blob/master/PotenciaRecursiva/solucaoElegante/SolucaoElegante.java) |
 | 2 | [Busca Binária](https://github.com/Viniciuswps/tst-leda/blob/master/BuscaBinaria/README.md) | [Java](https://github.com/Viniciuswps/tst-leda/tree/master/BuscaBinaria/BuscaBinaria.java) |
@@ -51,7 +51,7 @@ A ideia é praticar a implementação de algoritmos e desenvolver o hábito de t
 | 26 | [Teorema Mestre Elegante*](https://github.com/Viniciuswps/tst-leda/blob/master/TeoremaMestre/README.md) | [Java](https://github.com/Viniciuswps/tst-leda/tree/master/TeoremaMestre/SolucaoElegante/SolucaoElegante.java)|
 | 27 | [Estatística de Ordem](https://github.com/Viniciuswps/tst-leda/blob/master/EstatisticaDeOrdem/README.md) | [Java](https://github.com/Viniciuswps/tst-leda/tree/master/EstatisticaDeOrdem/EstatisticaDeOrdem.java)|
 
-> * Os problemas em que seu nome está acompanhado com a palavra "Elegante" foram resolvidos de forma diferente do esperado pelo Tst, geralmente são mais "elegantes" por possuirem uma funcionalidade a mais ou outros fatores. Portanto, na maioria dos casos, a resolução destes problemas não passam nos testes do Tst.
+> * Os problemas no qual o nome está acompanhado com a palavra "Elegante" foram resolvidos de forma diferente do esperado pelo Tst, geralmente são mais "elegantes" por possuirem uma funcionalidade a mais ou outros fatores subjetivos. Portanto, em alguns casos, a resolução destes problemas não passam nos testes do Tst.
 
 ------------------------------
 
