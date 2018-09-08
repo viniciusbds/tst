@@ -3,8 +3,6 @@
 
 **Repositório com soluções para os problemas do Tst da disciplina  Laboratório de Estrutura de Dados e Algoritmos UFCG 2018.2.**
 
-A ideia é praticar a implementação de algoritmos, tentar encontrar a melhor solução e pensar na mesma antes de colocar a mão no teclado.
-
 ------------------------------
 
 ## Detalhes
@@ -14,6 +12,8 @@ A ideia é praticar a implementação de algoritmos, tentar encontrar a melhor s
 > Como o Tst já realiza testes automáticos durante as submissões, não foi necessário criar novos testes.
 
 > Alguns métodos (como o swap e getArrayInteiros, por exemplo), por serem usados muitas vezes, poderiam ter sido extraídos para um pacote Util, optei por não fazer isso, pois o corretor do Tst não teria acesso a este pacote.
+
+> Os problemas no qual o nome está acompanhado com a palavra "Elegante" foram resolvidos de forma diferente do esperado pelo Tst, geralmente são mais "elegantes" por possuirem uma funcionalidade a mais ou outros fatores subjetivos. Portanto, em alguns casos, a resolução destes problemas não passam nos testes do Tst.
 
 ------------------------------
 
@@ -50,8 +50,6 @@ A ideia é praticar a implementação de algoritmos, tentar encontrar a melhor s
 | 26 | [Teorema Mestre](https://github.com/Viniciuswps/tst-leda/blob/master/TeoremaMestre/README.md) | [Java](https://github.com/Viniciuswps/tst-leda/tree/master/TeoremaMestre/TeoremaMestre.java)|
 | 26 | [Teorema Mestre Elegante*](https://github.com/Viniciuswps/tst-leda/blob/master/TeoremaMestre/README.md) | [Java](https://github.com/Viniciuswps/tst-leda/tree/master/TeoremaMestre/SolucaoElegante/SolucaoElegante.java)|
 | 27 | [Estatística de Ordem](https://github.com/Viniciuswps/tst-leda/blob/master/EstatisticaDeOrdem/README.md) | [Java](https://github.com/Viniciuswps/tst-leda/tree/master/EstatisticaDeOrdem/EstatisticaDeOrdem.java)|
-
-> * Os problemas no qual o nome está acompanhado com a palavra "Elegante" foram resolvidos de forma diferente do esperado pelo Tst, geralmente são mais "elegantes" por possuirem uma funcionalidade a mais ou outros fatores subjetivos. Portanto, em alguns casos, a resolução destes problemas não passam nos testes do Tst.
 
 ------------------------------
 
