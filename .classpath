@@ -30,5 +30,6 @@
 	<classpathentry kind="src" path="VetorCircular"/>
 	<classpathentry kind="src" path="TeoremaMestre"/>
 	<classpathentry kind="src" path="EstatisticaDeOrdem"/>
+	<classpathentry kind="src" path="MergeSortPassoAPasso"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
