@@ -50,6 +50,8 @@
 | 26 | [Teorema Mestre](https://github.com/Viniciuswps/tst-leda/blob/master/TeoremaMestre/README.md) | [Java](https://github.com/Viniciuswps/tst-leda/tree/master/TeoremaMestre/TeoremaMestre.java)|
 | 26 | [Teorema Mestre Elegante*](https://github.com/Viniciuswps/tst-leda/blob/master/TeoremaMestre/README.md) | [Java](https://github.com/Viniciuswps/tst-leda/tree/master/TeoremaMestre/SolucaoElegante/SolucaoElegante.java)|
 | 27 | [Estatística de Ordem](https://github.com/Viniciuswps/tst-leda/blob/master/EstatisticaDeOrdem/README.md) | [Java](https://github.com/Viniciuswps/tst-leda/tree/master/EstatisticaDeOrdem/EstatisticaDeOrdem.java)|
+| 28 | [Merge Sort passo a passo](https://github.com/Viniciuswps/tst-leda/blob/master/MergeSortPassoAPasso/README.md) | [Java](https://github.com/Viniciuswps/tst-leda/tree/master/MergeSortPassoAPasso/MergeSortPassoAPasso.java) |
+| 29 | [Quick Sort passo a passo](https://github.com/Viniciuswps/tst-leda/blob/master/QuickSortPassoAPasso/README.md) | [Java](https://github.com/Viniciuswps/tst-leda/tree/master/QuickSortPassoAPasso/QuickSortPassoAPasso.java) | 
 
 ------------------------------
 
