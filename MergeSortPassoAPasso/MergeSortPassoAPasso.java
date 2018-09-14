@@ -1,7 +1,7 @@
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class MergeSort {
+public class MergeSortPassoAPasso {
 
 	public static void main(String[] args) {
 
