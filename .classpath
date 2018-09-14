@@ -34,5 +34,6 @@
 	<classpathentry kind="src" path="QuickSortPassoAPasso"/>
 	<classpathentry kind="src" path="CountingSortPassoAPasso"/>
 	<classpathentry kind="src" path="CountingSortNegativosPassoAPasso"/>
+	<classpathentry kind="src" path="TabelaDeFrequencia"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
