@@ -13,7 +13,7 @@ class CountingSortPassoAPasso {
 	private static void countingSort(int[] A, int k) {
 
 		int min = min(A);
-		int aux = -min + 1;
+		int aux = -min;
 
 		int[] C = new int[k + 1];
 		preencheArrayNulo(C);
