@@ -32,5 +32,7 @@
 	<classpathentry kind="src" path="EstatisticaDeOrdem"/>
 	<classpathentry kind="src" path="MergeSortPassoAPasso"/>
 	<classpathentry kind="src" path="QuickSortPassoAPasso"/>
+	<classpathentry kind="src" path="CountingSortPassoAPasso"/>
+	<classpathentry kind="src" path="CountingSortNegativosPassoAPasso"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
