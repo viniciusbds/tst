@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.Scanner;
 
 class CountingSortPassoAPasso {
@@ -12,16 +13,13 @@ class CountingSortPassoAPasso {
 
 	private static void countingSort(int[] A, int k) {
 
-		int min = min(A);
-		int aux = -min;
-
 		int[] C = new int[k + 1];
-		preencheArrayNulo(C);
+		Arrays.fill(C, 0);
 		int[] B = new int[A.length];
-		preencheArrayNulo(B);
+		Arrays.fill(B, 0);
 
 		for (int i = 0; i < A.length; i++) {
-			C[A[i] + aux]++;
+			C[A[i]]++;
 			imprimeArray(C);
 		}
 
@@ -30,9 +28,11 @@ class CountingSortPassoAPasso {
 		}
 		imprimeCumulativa(C);
 
+		int a;
+		int posicao;
 		for (int i = A.length - 1; i >= 0; i--) {
-			int a = A[i];
-			int posicao = --C[a + aux];
+			a = A[i];
+			posicao = --C[a];
 			B[posicao] = a;
 		}
 
@@ -52,22 +52,6 @@ class CountingSortPassoAPasso {
 			array[i] = Integer.parseInt(entrada[i]);
 		}
 		return array;
-	}
-
-	private static int min(int[] array) {
-		int result = array[0];
-		for (int i = 0; i < array.length; i++) {
-			if (array[i] < result) {
-				result = array[i];
-			}
-		}
-		return result;
-	}
-
-	private static void preencheArrayNulo(int[] c) {
-		for (int i = 0; i < c.length; i++) {
-			c[i] = 0;
-		}
 	}
 
 	private static String strArray(int[] array) {
