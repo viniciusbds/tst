@@ -53,7 +53,7 @@
 | 28 | [Merge Sort passo a passo](https://github.com/Viniciuswps/tst-leda/blob/master/MergeSortPassoAPasso/README.md) | [Java](https://github.com/Viniciuswps/tst-leda/tree/master/MergeSortPassoAPasso/MergeSortPassoAPasso.java) |
 | 29 | [Quick Sort passo a passo](https://github.com/Viniciuswps/tst-leda/blob/master/QuickSortPassoAPasso/README.md) | [Java](https://github.com/Viniciuswps/tst-leda/tree/master/QuickSortPassoAPasso/QuickSortPassoAPasso.java) | 
 | 30 | [Counting Sort passo a passo](https://github.com/Viniciuswps/tst-leda/blob/master/CountingSortPassoAPasso/README.md) | [Java](https://github.com/Viniciuswps/tst-leda/tree/master/CountingSortPassoAPasso/CountingSortPassoAPasso.java) | 
-| 31 | [Counting Sort Negativo passo a passo](https://github.com/Viniciuswps/tst-leda/blob/master/CountingSortNegativosPassoAPasso/README.md) | [Java](https://github.com/Viniciuswps/tst-leda/tree/master/CountingSortNegativosPassoAPasso/CountingSortNegativoPassoAPasso.java) | 
+| 31 | [Counting Sort Negativo passo a passo](https://github.com/Viniciuswps/tst-leda/blob/master/CountingSortNegativosPassoAPasso/README.md) | [Java](https://github.com/Viniciuswps/tst-leda/tree/master/CountingSortNegativosPassoAPasso/CountingSortNegativosPassoAPasso.java) | 
 | 32 | [Tabela De Frequência](https://github.com/Viniciuswps/tst-leda/blob/master/TabelaDeFrequencia/README.md) | [Java](https://github.com/Viniciuswps/tst-leda/tree/master/TabelaDeFrequencia/TabelaDeFrequencia.java) | 
 
 ------------------------------
