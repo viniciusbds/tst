@@ -8,7 +8,6 @@ class CountingSortNegativosPassoAPasso {
 		int[] array = getArrayInteiros(scan);
 		int max = Integer.parseInt(scan.nextLine());
 		int min = Integer.parseInt(scan.nextLine());
-
 		countingSort(array, max, min);
 		scan.close();
 	}
@@ -17,10 +16,11 @@ class CountingSortNegativosPassoAPasso {
 
 		int aux = -min;
 		int k = max - min;
+
 		int[] C = new int[k + 1];
-		preencheArrayNulo(C);
+		Arrays.fill(C, 0);
 		int[] B = new int[A.length];
-		preencheArrayNulo(B);
+		Arrays.fill(B, 0);
 
 		for (int i = 0; i < A.length; i++) {
 			C[A[i] + aux]++;
@@ -56,21 +56,6 @@ class CountingSortNegativosPassoAPasso {
 			array[i] = Integer.parseInt(entrada[i]);
 		}
 		return array;
-	}
-
-	private static void preencheArrayNulo(int[] c) {
-		for (int i = 0; i < c.length; i++) {
-			c[i] = 0;
-		}
-	}
-
-	private static String strArray(int[] array) {
-		String result = "";
-		for (int i = 0; i < array.length - 1; i++) {
-			result += array[i] + " ";
-		}
-		result += array[array.length - 1] + "";
-		return result;
 	}
 
 	private static void imprimeArray(int[] array) {
