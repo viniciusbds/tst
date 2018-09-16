@@ -61,10 +61,13 @@
 
 ## Problemas Legais
 
+> Problemas que merecem um destaque especial.
+
 |   | Problema           | Solução | 
 | - | ------------------ | ------- |
 | 1 | [Ordenação De Placas](https://github.com/Viniciuswps/tst-leda/blob/master/OrdenacaoDePlacas/README.md) | [Java](https://github.com/Viniciuswps/tst-leda/tree/master/OrdenacaoDePlacas/OrdenacaoDePlacas.java) | 
 
+------------------------------
 
 ## Como Colaborar
 
