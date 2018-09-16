@@ -56,7 +56,8 @@
 | 31 | [Counting Sort Negativo passo a passo](https://github.com/Viniciuswps/tst-leda/blob/master/CountingSortNegativosPassoAPasso/README.md) | [Java](https://github.com/Viniciuswps/tst-leda/tree/master/CountingSortNegativosPassoAPasso/CountingSortNegativosPassoAPasso.java) | 
 | 32 | [Tabela De Frequência](https://github.com/Viniciuswps/tst-leda/blob/master/TabelaDeFrequencia/README.md) | [Java](https://github.com/Viniciuswps/tst-leda/tree/master/TabelaDeFrequencia/TabelaDeFrequencia.java) | 
 | 33 | [Ordenação De Placas](https://github.com/Viniciuswps/tst-leda/blob/master/OrdenacaoDePlacas/README.md) | [Java](https://github.com/Viniciuswps/tst-leda/tree/master/OrdenacaoDePlacas/OrdenacaoDePlacas.java) | 
-
+| 34 | [Particiona Estável](https://github.com/Viniciuswps/tst-leda/blob/master/ParticionaEstavel/README.md) | [Java](https://github.com/Viniciuswps/tst-leda/tree/master/ParticionaEstavel/ParticionaEstavel.java) | 
+| 35 | [Particiona Lomuto](https://github.com/Viniciuswps/tst-leda/blob/master/ParticionaLomuto/README.md) | [Java](https://github.com/Viniciuswps/tst-leda/tree/master/ParticionaLomuto/ParticionaLomuto.java) | 
 ------------------------------
 
 ## Problemas Legais
