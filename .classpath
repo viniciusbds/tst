@@ -35,5 +35,6 @@
 	<classpathentry kind="src" path="CountingSortPassoAPasso"/>
 	<classpathentry kind="src" path="CountingSortNegativosPassoAPasso"/>
 	<classpathentry kind="src" path="TabelaDeFrequencia"/>
+	<classpathentry kind="src" path="OrdenacaoDePlacas"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
