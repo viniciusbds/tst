@@ -13,8 +13,8 @@ public class MergeSortPassoAPasso {
 	}
 
 	private static void mergeSort(int[] array) {
-		mergeSort(array, 0, array.length);
-		
+		mergeSort(array, 0, array.length - 1);
+
 	}
 
 	private static void mergeSort(int[] array, int leftIndex, int rightIndex) {
@@ -30,44 +30,45 @@ public class MergeSortPassoAPasso {
 
 	private static void merge(int[] array, int leftIndex, int meio, int rightIndex) {
 
-		int[] left = getArrayLeft(array, leftIndex, meio);
-		int[] right = getArrayRight(array, meio + 1, rightIndex);
-		int[] result = new int[rightIndex - leftIndex];
+		int n1 = meio - leftIndex + 1;
+		int n2 = rightIndex - meio;
 
-		int qtdInseridos = 0;
-		int qtdElementosLeft = left.length;
-		int qtdElementosRight = right.length;
+		int[] left = new int[n1];
+		for (int i = 0; i < n1; i++) {
+			left[i] = array[i];
+		}
+		int[] right = new int[n2];
+		for (int j = 0; j < n2; j++) {
+			right[j] = array[j + meio + 1];
+		}
 
 		int i = 0;
 		int j = 0;
+		int indexAtual = leftIndex;
 
-		while (qtdElementosLeft > 0 && qtdElementosRight > 0) {
-			if (left[i] < right[j]) {
-				result[qtdInseridos++] = left[i];
+		while (i < n1 && j < n2) {
+			if (array[i] < array[j]) {
+				array[indexAtual] = left[i];
 				i++;
-				qtdElementosLeft--;
 			} else {
-				result[qtdInseridos++] = right[j];
+				array[indexAtual] = right[j];
 				j++;
-				qtdElementosRight--;
 			}
+			indexAtual++;
 		}
 
-		while (qtdElementosLeft > 0) {
-			result[qtdInseridos] = left[i++];
-			qtdElementosLeft--;
+		while (i < n1) {
+			array[indexAtual] = left[i];
+			i++;
+			indexAtual++;
 		}
 
-		while (qtdElementosRight > 0) {
-			result[qtdElementosRight] = left[j++];
-			qtdElementosRight--;
+		while (j < n2) {
+			array[indexAtual] = right[j];
+			j++;
+			indexAtual++;
 		}
 
-		int k = 0;
-		for (int t = leftIndex; t < rightIndex && k < result.length; t++) {
-			array[t] = result[k];
-			k++;
-		}
 	}
 
 	private static int[] getArrayInteiros(Scanner scan) {
