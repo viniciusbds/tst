@@ -17,7 +17,7 @@ class ParticionaLomuto {
 		int pivot = array[0];
 		int i = 0;
 		for (int j = 1; j < array.length; j++) {
-			if (array[j] <= pivot) {
+			if (array[j] < pivot) {
 				i++;
 				swap(array, i, j);
 				System.out.println(Arrays.toString(array));
