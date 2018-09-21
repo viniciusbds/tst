@@ -39,5 +39,6 @@
 	<classpathentry kind="src" path="ParticionaEstavel"/>
 	<classpathentry kind="src" path="ParticionaLomuto"/>
 	<classpathentry kind="src" path="MelhorPivot"/>
+	<classpathentry kind="src" path="StoogeSort"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
