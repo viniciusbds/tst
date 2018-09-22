@@ -59,6 +59,7 @@
 | 34 | [Particiona Estável](https://github.com/Viniciuswps/tst-leda/blob/master/ParticionaEstavel/README.md) | [Java](https://github.com/Viniciuswps/tst-leda/tree/master/ParticionaEstavel/ParticionaEstavel.java) | 
 | 35 | [Particiona Lomuto](https://github.com/Viniciuswps/tst-leda/blob/master/ParticionaLomuto/README.md) | [Java](https://github.com/Viniciuswps/tst-leda/tree/master/ParticionaLomuto/ParticionaLomuto.java) | 
 | 36 | [Particiona Hoare](https://github.com/Viniciuswps/tst-leda/blob/master/ParticionaHoare/README.md) | [Java](https://github.com/Viniciuswps/tst-leda/tree/master/ParticionaHoare/ParticionaHoare.java) | 
+| 37 | [Stooge Sort](https://github.com/Viniciuswps/tst-leda/blob/master/StoogeSort/README.md) | [Java](https://github.com/Viniciuswps/tst-leda/tree/master/StoogeSort/StoogeSort.java) | 
 
 ------------------------------
 
