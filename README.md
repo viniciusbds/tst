@@ -72,6 +72,7 @@
 | 1 | [Ordenação De Placas](https://github.com/Viniciuswps/tst-leda/blob/master/OrdenacaoDePlacas/README.md) | [Java](https://github.com/Viniciuswps/tst-leda/tree/master/OrdenacaoDePlacas/OrdenacaoDePlacas.java) | 
 | 2 | [Teorema Mestre Elegante*](https://github.com/Viniciuswps/tst-leda/blob/master/TeoremaMestre/README.md) | [Java](https://github.com/Viniciuswps/tst-leda/tree/master/TeoremaMestre/SolucaoElegante/SolucaoElegante.java)|
 | 3 | [Potência Recursiva Elegante*](https://github.com/Viniciuswps/tst-leda/blob/master/PotenciaRecursiva/README.md) | [Java](https://github.com/Viniciuswps/tst-leda/blob/master/PotenciaRecursiva/solucaoElegante/SolucaoElegante.java) |
+| 4 | [Particiona Hoare](https://github.com/Viniciuswps/tst-leda/blob/master/ParticionaHoare/README.md) | [Java](https://github.com/Viniciuswps/tst-leda/tree/master/ParticionaHoare/ParticionaHoare.java) | 
 
 ------------------------------
 
