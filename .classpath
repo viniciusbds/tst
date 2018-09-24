@@ -41,5 +41,6 @@
 	<classpathentry kind="src" path="ParticionaHoare"/>
 	<classpathentry kind="src" path="MelhorPivot"/>
 	<classpathentry kind="src" path="StoogeSort"/>
+	<classpathentry kind="src" path="PilhaComArray"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
