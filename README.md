@@ -61,6 +61,7 @@
 | 36 | [Particiona Hoare](https://github.com/Viniciuswps/tst-leda/blob/master/ParticionaHoare/README.md) | [Java](https://github.com/Viniciuswps/tst-leda/tree/master/ParticionaHoare/ParticionaHoare.java) | 
 | 37 | [Stooge Sort](https://github.com/Viniciuswps/tst-leda/blob/master/StoogeSort/README.md) | [Java](https://github.com/Viniciuswps/tst-leda/tree/master/StoogeSort/StoogeSort.java) | 
 | 38 | [Pilha com Array](https://github.com/Viniciuswps/tst-leda/blob/master/PilhaComArray/README.md) | [Java](https://github.com/Viniciuswps/tst-leda/tree/master/PilhaComArray/PilhaComArray.java) | 
+| 39 | [Fila com Array](https://github.com/Viniciuswps/tst-leda/blob/master/FilaComArray/README.md) | [Java](https://github.com/Viniciuswps/tst-leda/tree/master/FilaComArray/FilaComArray.java) | 
 
 ------------------------------
 
@@ -74,6 +75,7 @@
 | 2 | [Teorema Mestre Elegante*](https://github.com/Viniciuswps/tst-leda/blob/master/TeoremaMestre/README.md) | [Java](https://github.com/Viniciuswps/tst-leda/tree/master/TeoremaMestre/SolucaoElegante/SolucaoElegante.java)|
 | 3 | [Potência Recursiva Elegante*](https://github.com/Viniciuswps/tst-leda/blob/master/PotenciaRecursiva/README.md) | [Java](https://github.com/Viniciuswps/tst-leda/blob/master/PotenciaRecursiva/solucaoElegante/SolucaoElegante.java) |
 | 4 | [Pilha com Array](https://github.com/Viniciuswps/tst-leda/blob/master/PilhaComArray/README.md) | [Java](https://github.com/Viniciuswps/tst-leda/tree/master/PilhaComArray/PilhaComArray.java) | 
+| 5 | [Fila com Array](https://github.com/Viniciuswps/tst-leda/blob/master/FilaComArray/README.md) | [Java](https://github.com/Viniciuswps/tst-leda/tree/master/FilaComArray/FilaComArray.java) | 
 
 ------------------------------
 
