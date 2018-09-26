@@ -62,7 +62,7 @@
 | 37 | [Stooge Sort](https://github.com/Viniciuswps/tst-leda/blob/master/StoogeSort/README.md) | [Java](https://github.com/Viniciuswps/tst-leda/tree/master/StoogeSort/StoogeSort.java) | 
 | 38 | [Pilha com Array](https://github.com/Viniciuswps/tst-leda/blob/master/PilhaComArray/README.md) | [Java](https://github.com/Viniciuswps/tst-leda/tree/master/PilhaComArray/PilhaComArray.java) | 
 | 39 | [Fila com Array](https://github.com/Viniciuswps/tst-leda/blob/master/FilaComArray/README.md) | [Java](https://github.com/Viniciuswps/tst-leda/tree/master/FilaComArray/FilaComArray.java) | 
-
+| 40 | [Notacao Polonesa Reversa](https://github.com/Viniciuswps/tst-leda/blob/master/NotacaoPolonesaReversa/README.md) | [Java](https://github.com/Viniciuswps/tst-leda/tree/master/NotacaoPolonesaReversa/NotacaoPolonesaReversa.java) | 
 ------------------------------
 
 ## Problemas Legais

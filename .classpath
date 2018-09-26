@@ -43,5 +43,6 @@
 	<classpathentry kind="src" path="StoogeSort"/>
 	<classpathentry kind="src" path="PilhaComArray"/>
 	<classpathentry kind="src" path="FilaComArray"/>
+	<classpathentry kind="src" path="NotacaoPolonesaReversa"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
