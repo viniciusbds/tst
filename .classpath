@@ -44,5 +44,6 @@
 	<classpathentry kind="src" path="PilhaComArray"/>
 	<classpathentry kind="src" path="FilaComArray"/>
 	<classpathentry kind="src" path="NotacaoPolonesaReversa"/>
+	<classpathentry kind="src" path="ExpressaoMatematica"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
