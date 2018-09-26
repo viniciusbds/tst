@@ -1,12 +1,12 @@
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class MergeSortPassoAPasso {
+class MergeSortPassoAPasso {
 
 	public static void main(String[] args) {
 
 		Scanner scan = new Scanner(System.in);
-		int[] array = { 5, 4, 3, 2, 1 };// getArrayInteiros(scan);
+		int[] array = getArrayInteiros(scan);
 		mergeSort(array);
 		System.out.println(Arrays.toString(array));
 		scan.close();
@@ -18,53 +18,45 @@ public class MergeSortPassoAPasso {
 	}
 
 	private static void mergeSort(int[] array, int leftIndex, int rightIndex) {
+		imprimeArray(array, leftIndex, rightIndex);
 		if (leftIndex < rightIndex) {
 
 			int meio = (leftIndex + rightIndex) / 2;
 			mergeSort(array, leftIndex, meio);
 			mergeSort(array, meio + 1, rightIndex);
 			merge(array, leftIndex, meio, rightIndex);
-		}
 
+			imprimeArray(array, leftIndex, rightIndex);
+
+		}
 	}
 
 	private static void merge(int[] array, int leftIndex, int meio, int rightIndex) {
+		int[] aux = Arrays.copyOf(array, array.length);
 
-		int n1 = meio - leftIndex + 1;
-		int n2 = rightIndex - meio;
-
-		int[] left = new int[n1];
-		for (int i = 0; i < n1; i++) {
-			left[i] = array[i];
-		}
-		int[] right = new int[n2];
-		for (int j = 0; j < n2; j++) {
-			right[j] = array[j + meio + 1];
-		}
-
-		int i = 0;
-		int j = 0;
+		int i = leftIndex;
+		int j = meio + 1;
 		int indexAtual = leftIndex;
 
-		while (i < n1 && j < n2) {
-			if (array[i] < array[j]) {
-				array[indexAtual] = left[i];
+		while (i <= meio && j <= rightIndex) {
+			if (aux[i] < aux[j]) {
+				array[indexAtual] = aux[i];
 				i++;
 			} else {
-				array[indexAtual] = right[j];
+				array[indexAtual] = aux[j];
 				j++;
 			}
 			indexAtual++;
 		}
 
-		while (i < n1) {
-			array[indexAtual] = left[i];
+		while (i <= meio) {
+			array[indexAtual] = aux[i];
 			i++;
 			indexAtual++;
 		}
 
-		while (j < n2) {
-			array[indexAtual] = right[j];
+		while (j <= rightIndex) {
+			array[indexAtual] = aux[j];
 			j++;
 			indexAtual++;
 		}
@@ -80,23 +72,8 @@ public class MergeSortPassoAPasso {
 		return array;
 	}
 
-	private static int[] getArrayLeft(int[] array, int leftIndex, int meio) {
-		int[] result = new int[meio];
-		int k = 0;
-		for (int i = leftIndex; i <= meio && k < result.length; i++) {
-			result[k] = array[i];
-			k++;
-		}
-		return result;
+	private static void imprimeArray(int[] array, int leftIndex, int rightIndex) {
+		System.out.println(Arrays.toString(Arrays.copyOfRange(array, leftIndex, rightIndex + 1)));
 	}
 
-	private static int[] getArrayRight(int[] array, int meio, int rightIndex) {
-		int[] result = new int[meio];
-		int k = 0;
-		for (int i = meio; i <= rightIndex && k < result.length; i++) {
-			result[k] = array[i];
-			k++;
-		}
-		return result;
-	}
 }
