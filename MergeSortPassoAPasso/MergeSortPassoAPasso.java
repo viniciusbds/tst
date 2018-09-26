@@ -26,7 +26,9 @@ class MergeSortPassoAPasso {
 			mergeSort(array, meio + 1, rightIndex);
 			merge(array, leftIndex, meio, rightIndex);
 
-			imprimeArray(array, leftIndex, rightIndex);
+			if (rightIndex - leftIndex < array.length-1) {
+				imprimeArray(array, leftIndex, rightIndex);
+			}
 
 		}
 	}
