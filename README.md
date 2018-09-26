@@ -71,11 +71,12 @@
 
 |   | Problema           | Solução | 
 | - | ------------------ | ------- |
-| 1 | [Ordenação De Placas](https://github.com/Viniciuswps/tst-leda/blob/master/OrdenacaoDePlacas/README.md) | [Java](https://github.com/Viniciuswps/tst-leda/tree/master/OrdenacaoDePlacas/OrdenacaoDePlacas.java) | 
-| 2 | [Teorema Mestre Elegante*](https://github.com/Viniciuswps/tst-leda/blob/master/TeoremaMestre/README.md) | [Java](https://github.com/Viniciuswps/tst-leda/tree/master/TeoremaMestre/SolucaoElegante/SolucaoElegante.java)|
-| 3 | [Potência Recursiva Elegante*](https://github.com/Viniciuswps/tst-leda/blob/master/PotenciaRecursiva/README.md) | [Java](https://github.com/Viniciuswps/tst-leda/blob/master/PotenciaRecursiva/solucaoElegante/SolucaoElegante.java) |
-| 4 | [Pilha com Array](https://github.com/Viniciuswps/tst-leda/blob/master/PilhaComArray/README.md) | [Java](https://github.com/Viniciuswps/tst-leda/tree/master/PilhaComArray/PilhaComArray.java) | 
-| 5 | [Fila com Array](https://github.com/Viniciuswps/tst-leda/blob/master/FilaComArray/README.md) | [Java](https://github.com/Viniciuswps/tst-leda/tree/master/FilaComArray/FilaComArray.java) | 
+| 1 | [Notacao Polonesa Reversa](https://github.com/Viniciuswps/tst-leda/blob/master/NotacaoPolonesaReversa/README.md) | [Java](https://github.com/Viniciuswps/tst-leda/tree/master/NotacaoPolonesaReversa/NotacaoPolonesaReversa.java) | 
+| 2 | [Ordenação De Placas](https://github.com/Viniciuswps/tst-leda/blob/master/OrdenacaoDePlacas/README.md) | [Java](https://github.com/Viniciuswps/tst-leda/tree/master/OrdenacaoDePlacas/OrdenacaoDePlacas.java) | 
+| 3 | [Teorema Mestre Elegante*](https://github.com/Viniciuswps/tst-leda/blob/master/TeoremaMestre/README.md) | [Java](https://github.com/Viniciuswps/tst-leda/tree/master/TeoremaMestre/SolucaoElegante/SolucaoElegante.java)|
+| 4 | [Potência Recursiva Elegante*](https://github.com/Viniciuswps/tst-leda/blob/master/PotenciaRecursiva/README.md) | [Java](https://github.com/Viniciuswps/tst-leda/blob/master/PotenciaRecursiva/solucaoElegante/SolucaoElegante.java) |
+| 5 | [Pilha com Array](https://github.com/Viniciuswps/tst-leda/blob/master/PilhaComArray/README.md) | [Java](https://github.com/Viniciuswps/tst-leda/tree/master/PilhaComArray/PilhaComArray.java) | 
+
 
 ------------------------------
 
