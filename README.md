@@ -59,10 +59,11 @@
 | 34 | [Particiona Estável](https://github.com/Viniciuswps/tst-leda/blob/master/ParticionaEstavel/README.md) | [Java](https://github.com/Viniciuswps/tst-leda/tree/master/ParticionaEstavel/ParticionaEstavel.java) | 
 | 35 | [Particiona Lomuto](https://github.com/Viniciuswps/tst-leda/blob/master/ParticionaLomuto/README.md) | [Java](https://github.com/Viniciuswps/tst-leda/tree/master/ParticionaLomuto/ParticionaLomuto.java) | 
 | 36 | [Particiona Hoare](https://github.com/Viniciuswps/tst-leda/blob/master/ParticionaHoare/README.md) | [Java](https://github.com/Viniciuswps/tst-leda/tree/master/ParticionaHoare/ParticionaHoare.java) | 
-| 37 | [Stooge Sort](https://github.com/Viniciuswps/tst-leda/blob/master/StoogeSort/README.md) | [Java](https://github.com/Viniciuswps/tst-leda/tree/master/StoogeSort/StoogeSort.java) | 
-| 38 | [Pilha com Array](https://github.com/Viniciuswps/tst-leda/blob/master/PilhaComArray/README.md) | [Java](https://github.com/Viniciuswps/tst-leda/tree/master/PilhaComArray/PilhaComArray.java) | 
-| 39 | [Fila com Array](https://github.com/Viniciuswps/tst-leda/blob/master/FilaComArray/README.md) | [Java](https://github.com/Viniciuswps/tst-leda/tree/master/FilaComArray/FilaComArray.java) | 
-| 40 | [Notacao Polonesa Reversa](https://github.com/Viniciuswps/tst-leda/blob/master/NotacaoPolonesaReversa/README.md) | [Java](https://github.com/Viniciuswps/tst-leda/tree/master/NotacaoPolonesaReversa/NotacaoPolonesaReversa.java) | 
+| 37 | [Melhor Pivot](https://github.com/Viniciuswps/tst-leda/blob/master/MelhorPivot/README.md) | [Java](https://github.com/Viniciuswps/tst-leda/tree/master/MelhorPivot/MelhorPivot.java) | 
+| 38 | [Stooge Sort](https://github.com/Viniciuswps/tst-leda/blob/master/StoogeSort/README.md) | [Java](https://github.com/Viniciuswps/tst-leda/tree/master/StoogeSort/StoogeSort.java) | 
+| 39 | [Pilha com Array](https://github.com/Viniciuswps/tst-leda/blob/master/PilhaComArray/README.md) | [Java](https://github.com/Viniciuswps/tst-leda/tree/master/PilhaComArray/PilhaComArray.java) | 
+| 40 | [Fila com Array](https://github.com/Viniciuswps/tst-leda/blob/master/FilaComArray/README.md) | [Java](https://github.com/Viniciuswps/tst-leda/tree/master/FilaComArray/FilaComArray.java) | 
+| 41 | [Notacao Polonesa Reversa](https://github.com/Viniciuswps/tst-leda/blob/master/NotacaoPolonesaReversa/README.md) | [Java](https://github.com/Viniciuswps/tst-leda/tree/master/NotacaoPolonesaReversa/NotacaoPolonesaReversa.java) | 
 ------------------------------
 
 ## Problemas Legais
