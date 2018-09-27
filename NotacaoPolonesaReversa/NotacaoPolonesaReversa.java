@@ -12,7 +12,7 @@ class NotacaoPolonesaReversa {
 
 	private static double solution(String[] formula) {
 		Stack<Integer> pilha = new Stack<Integer>();
-		
+
 		String elemento;
 		for (int i = 0; i < formula.length; i++) {
 			elemento = formula[i];

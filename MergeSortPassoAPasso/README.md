@@ -1,4 +1,4 @@
-## MergeSort passo a passo
+# MergeSort passo a passo
 
 Escreva um programa que ordena um array de inteiros utilizando o merge sort.
 
