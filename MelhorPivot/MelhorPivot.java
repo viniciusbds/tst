@@ -15,12 +15,29 @@ class MelhorPivot {
 	}
 
 	private static int melhorPivot(int[] array, int i, int j) {
-		int result = i;
-		int media = (min(array) + max(array)) / 2;
-		
-		
+		int result = 0;
+
+		int indexMedia = getIndexMedia(array);
+		int distI = Math.abs(i - indexMedia);
+		int distJ = Math.abs(j - indexMedia);
+
+		if (distI <= distJ) {
+			result = i;
+		} else {
+			result = j;
+		}
+
 		return result;
 
+	}
+
+	private static int getIndexMedia(int[] array) {
+		int media = (min(array) + max(array)) / 2;
+		int i = 0;
+		while (i < array.length && array[i] < media) {
+			i++;		
+		}
+		return i;
 	}
 
 	private static int[] getArrayInteiros(Scanner scan) {
