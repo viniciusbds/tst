@@ -64,6 +64,7 @@
 | 39 | [Pilha com Array](https://github.com/Viniciuswps/tst-leda/blob/master/PilhaComArray/README.md) | [Java](https://github.com/Viniciuswps/tst-leda/tree/master/PilhaComArray/PilhaComArray.java) | 
 | 40 | [Fila com Array](https://github.com/Viniciuswps/tst-leda/blob/master/FilaComArray/README.md) | [Java](https://github.com/Viniciuswps/tst-leda/tree/master/FilaComArray/FilaComArray.java) | 
 | 41 | [Notacao Polonesa Reversa](https://github.com/Viniciuswps/tst-leda/blob/master/NotacaoPolonesaReversa/README.md) | [Java](https://github.com/Viniciuswps/tst-leda/tree/master/NotacaoPolonesaReversa/NotacaoPolonesaReversa.java) | 
+| 42 | [Fura Fila](https://github.com/Viniciuswps/tst-leda/blob/master/FuraFila/README.md) | [Java](https://github.com/Viniciuswps/tst-leda/tree/master/FuraFila/FuraFila.java) | 
 ------------------------------
 
 ## Problemas Legais
