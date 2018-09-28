@@ -9,23 +9,29 @@ class ParticionaEstavel {
 		particionaEstavel(array);
 		System.out.println(Arrays.toString(array));
 		scan.close();
-
 	}
 
 	private static void particionaEstavel(int[] array) {
 		int pivot = array[0];
 		int indexUltimoMenor = 0;
 
-		for (int j = array.length - 1; j >= 0; j--) {
-			if (array[j] <= pivot) {
-				swap(array, indexUltimoMenor, j);
+		for (int i = 1; i < array.length; i++) {
+			if (array[i] <= pivot) {
+				indexUltimoMenor++;
+
+				int k = i;
+				while (k > indexUltimoMenor) {
+					swap(array, k, k - 1);
+					k--;
+				}
 			}
+
 		}
 
-		int i = array.length - 1;
-		while (i >= 0 && array[i - 1] > array[i]) {
-			swap(array, i, i - 1);
-			i--;
+		int j = 1;
+		while (j <= indexUltimoMenor) {
+			swap(array, j, j - 1);
+			j++;
 		}
 
 	}
