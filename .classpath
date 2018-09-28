@@ -46,5 +46,6 @@
 	<classpathentry kind="src" path="NotacaoPolonesaReversa"/>
 	<classpathentry kind="src" path="ExpressaoMatematica"/>
 	<classpathentry kind="src" path="FuraFila"/>
+	<classpathentry kind="src" path="MarianaEOsLivros"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
