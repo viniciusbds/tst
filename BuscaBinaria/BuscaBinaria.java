@@ -8,8 +8,8 @@ class BuscaBinaria {
 
 		int[] listaDeNumeros = preencheArray();
 		int numero = scan.nextInt();
-		
-		System.out.println(buscaBinaria(numero,listaDeNumeros));
+
+		System.out.println(buscaBinaria(numero, listaDeNumeros));
 
 	}
 
@@ -23,28 +23,23 @@ class BuscaBinaria {
 	}
 
 	public static int buscaBinaria(int elemento, int[] array) {
-		
+
 		int max = array.length - 1;
 		int min = 0;
-		int palpite = (int) Math.floor((max + min) / 2);
-		
-		while(max >= min) {
-			
-			if (array[palpite] == elemento) {
-				return palpite;
+		int mid;
+
+		while (max >= min) {
+			mid = (int) Math.floor((max + min) / 2);
+			if (array[mid] == elemento) {
+				return mid;
+			} else if (array[mid] < elemento) {
+				min = mid + 1;
+			} else if (array[mid] > elemento) {
+				max = mid - 1;
 			}
-			else if (array[palpite] < elemento) {
-				min = palpite + 1;
-			} 
-			else if (array[palpite] > elemento) {
-				max = palpite - 1;	
-			}
-			
-			System.out.println(palpite);
-			
-			palpite = (max + min) / 2;
+			System.out.println(mid);
 		}
-		
+
 		return -1;
 	}
 
