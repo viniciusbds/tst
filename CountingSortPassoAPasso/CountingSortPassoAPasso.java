@@ -1,4 +1,3 @@
-import java.util.Arrays;
 import java.util.Scanner;
 
 class CountingSortPassoAPasso {
@@ -14,9 +13,7 @@ class CountingSortPassoAPasso {
 	private static void countingSort(int[] A, int k) {
 
 		int[] C = new int[k + 1];
-		Arrays.fill(C, 0);
 		int[] B = new int[A.length];
-		Arrays.fill(B, 0);
 
 		for (int i = 0; i < A.length; i++) {
 			C[A[i]]++;
