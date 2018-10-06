@@ -5,23 +5,22 @@ class VetorCircular {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 		int[] array = getArrayInteiros(scan);
-		int numero = Integer.parseInt(scan.nextLine());
-		System.out.println(vetorCircular(array, numero));
+		int quantidadeElementos = Integer.parseInt(scan.nextLine());
+		System.out.println(vetorCircular(array, quantidadeElementos));
 		scan.close();
-
 	}
 
-	private static String vetorCircular(int[] array, int numero) {
+	private static String vetorCircular(int[] array, int quantidadeElementos) {
 		String result = "";
 		int index = 0;
-		for (int i = 0; i < numero - 1; i++) {
+		for (int i = 0; i < quantidadeElementos - 1; i++) {
 			result += array[index] + " ";
 			index++;
 			if (index == array.length) {
 				index = 0;
 			}
 		}
-		result += array[index] + "";
+		result += array[index];
 		return result;
 	}
 
@@ -33,4 +32,5 @@ class VetorCircular {
 		}
 		return array;
 	}
+	
 }
