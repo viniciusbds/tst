@@ -47,5 +47,6 @@
 	<classpathentry kind="src" path="ExpressaoMatematica"/>
 	<classpathentry kind="src" path="FuraFila"/>
 	<classpathentry kind="src" path="MarianaEOsLivros"/>
+	<classpathentry kind="src" path="FilaComLinkedList"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
