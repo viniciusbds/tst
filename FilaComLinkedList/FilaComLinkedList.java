@@ -23,6 +23,9 @@ class FilaComLinkedList {
 				System.out.println(fila.head());
 			} else if (operacao.equals("print")) {
 				System.out.println(fila.print());
+			} else if (operacao.equals("search")) {
+				int elemento = Integer.parseInt(entrada[1]);
+				System.out.println(fila.search(elemento));
 			}
 
 		}
@@ -69,6 +72,10 @@ class Fila<T> {
 
 	public void enqueue(T element) {
 		this.lista.insert(element);
+	}
+
+	public int search(T elemento) {
+		return this.lista.search(elemento);
 	}
 
 	public boolean isEmpty() {
@@ -120,16 +127,17 @@ class LinkedList<T> {
 		}
 	}
 
-	public T search(T element) {
-		T result = null;
-		if (isEmpty()) {
-
-		} else {
-			if (this.data.equals(element)) {
-				result = this.data;
-			} else {
-				result = this.next.search(element);
+	public int search(T element) {
+		int result = -1;
+		T[] array = this.toArray();
+		int i = 0;
+		boolean finish = false;
+		while (i < array.length && !finish) {
+			if (array[i].equals(element)) {
+				result = i;
+				finish = true;
 			}
+			i++;
 		}
 		return result;
 	}
@@ -163,11 +171,7 @@ class LinkedList<T> {
 		} else {
 			result = this.data + " " + this.next.toString();
 		}
-		return result;
-	}
-
-	public void insertFirst(T element) {
-
+		return result.trim();
 	}
 
 	public void removeFirst() {
@@ -176,10 +180,6 @@ class LinkedList<T> {
 			this.next = this.next.next;
 			this.previous = new LinkedList<T>();
 		}
-	}
-
-	public void removeLast() {
-
 	}
 
 	public boolean isEmpty() {
