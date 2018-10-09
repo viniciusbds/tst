@@ -1,51 +1,11 @@
 import java.util.Scanner;
 
-public class FilaComLinkedList {
-
-	Integer data;
-	FilaComLinkedList next;
-	FilaComLinkedList previous;
-
-	public void adiciona(Integer element) {
-		if (isEmpty()) {
-			this.data = element;
-			this.next = new FilaComLinkedList();
-			if (previous == null) {
-				this.previous = new FilaComLinkedList();
-			}
-		} else {
-			this.next.adiciona(element);
-		}
-	}
-
-	public char[] print() {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-	public char[] head() {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-	public void dequeue() {
-		// TODO Auto-generated method stub
-
-	}
-
-	public void enqueue(int elemento) {
-		// TODO Auto-generated method stub
-
-	}
-
-	public boolean isEmpty() {
-		return this.data == null;
-	}
+class FilaComLinkedList {
 
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 
-		FilaComLinkedList fila = new FilaComLinkedList();
+		Fila<Integer> fila = new Fila<Integer>();
 
 		String[] entrada;
 		String operacao = "";
@@ -68,6 +28,162 @@ public class FilaComLinkedList {
 		}
 
 		scan.close();
+	}
+
+}
+
+class Fila<T> {
+
+	LinkedList<T> lista = new LinkedList<T>();
+
+	public String print() {
+		String result = "";
+		if (!isEmpty()) {
+			result = this.lista.toString();
+		} else {
+			result = "empty";
+		}
+		return result;
+	}
+
+	public T head() {
+		T result = null;
+		if (!isEmpty()) {
+			result = lista.toArray()[0];
+		} else {
+			System.out.println("empty");
+		}
+		return result;
+	}
+
+	public T dequeue() {
+		T result = null;
+		if (!isEmpty()) {
+			result = lista.toArray()[0];
+			lista.removeFirst();
+		} else {
+			System.out.println("empty");
+		}
+		return result;
+	}
+
+	public void enqueue(T element) {
+		this.lista.insert(element);
+	}
+
+	public boolean isEmpty() {
+		return this.lista.isEmpty();
+	}
+
+}
+
+class LinkedList<T> {
+
+	T data;
+	LinkedList<T> next;
+	LinkedList<T> previous;
+
+	public void insert(T element) {
+		if (isEmpty()) {
+			this.data = element;
+			this.next = new LinkedList<T>();
+			if (previous == null) {
+				this.previous = new LinkedList<T>();
+			}
+		} else {
+			this.next.insert(element);
+		}
+	}
+
+	public void remove(T element) {
+		if (isEmpty()) {
+
+		} else {
+
+			if (this.data.equals(element)) {
+				if (this.previous.isEmpty() && this.next.isEmpty()) {
+					this.data = null;
+					this.next = null;
+					this.previous = null;
+				} else {
+					this.data = this.next.data;
+					this.next = this.next.next;
+					if (this.next != null) {
+						this.previous = this;
+					}
+				}
+
+			} else {
+				this.next.remove(element);
+			}
+
+		}
+	}
+
+	public T search(T element) {
+		T result = null;
+		if (isEmpty()) {
+
+		} else {
+			if (this.data.equals(element)) {
+				result = this.data;
+			} else {
+				result = this.next.search(element);
+			}
+		}
+		return result;
+	}
+
+	public int size() {
+		if (isEmpty()) {
+			return 0;
+		} else {
+			return 1 + this.next.size();
+		}
+	}
+
+	public T[] toArray() {
+		@SuppressWarnings("unchecked")
+		T[] result = (T[]) new Comparable[this.size()];
+		toArray(result, 0, this);
+		return result;
+	}
+
+	private void toArray(T[] array, int posAtual, LinkedList<T> node) {
+		if (!node.isEmpty()) {
+			array[posAtual] = node.data;
+			toArray(array, posAtual + 1, node.next);
+		}
+	}
+
+	public String toString() {
+		String result = "";
+		if (isEmpty()) {
+
+		} else {
+			result = this.data + " " + this.next.toString();
+		}
+		return result;
+	}
+
+	public void insertFirst(T element) {
+
+	}
+
+	public void removeFirst() {
+		if (!isEmpty()) {
+			this.data = this.next.data;
+			this.next = this.next.next;
+			this.previous = new LinkedList<T>();
+		}
+	}
+
+	public void removeLast() {
+
+	}
+
+	public boolean isEmpty() {
+		return this.data == null;
 	}
 
 }
