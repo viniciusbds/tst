@@ -48,5 +48,6 @@
 	<classpathentry kind="src" path="FuraFila"/>
 	<classpathentry kind="src" path="MarianaEOsLivros"/>
 	<classpathentry kind="src" path="FilaComLinkedList"/>
+	<classpathentry kind="src" path="HTChaining"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

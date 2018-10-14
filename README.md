@@ -67,6 +67,7 @@
 | 42 | [Fura Fila](https://github.com/Viniciuswps/tst-eda/blob/master/FuraFila/README.md) | [Java](https://github.com/Viniciuswps/tst-eda/tree/master/FuraFila/FuraFila.java) |
 | 43 | [Mariana e os Livros](https://github.com/Viniciuswps/tst-eda/blob/master/MarianaEOsLivros/README.md) | [Java](https://github.com/Viniciuswps/tst-eda/tree/master/MarianaEOsLivros/MarianaEOsLivros.java) |
 | 44 | [Fila com LinkedList](https://github.com/Viniciuswps/tst-eda/blob/master/FilaComLinkedList/README.md) | [Java](https://github.com/Viniciuswps/tst-eda/tree/master/FilaComLinkedList/FilaComLinkedList.java) |
+| 45 | [HT Chaining](https://github.com/Viniciuswps/tst-eda/blob/master/HTChaining/README.md) | [Java](https://github.com/Viniciuswps/tst-eda/tree/master/HTChaining/HTChaining.java) |
 ------------------------------
 
 ## Problemas Legais
