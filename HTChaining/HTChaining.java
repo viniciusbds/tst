@@ -7,8 +7,9 @@ class HTChaining {
 	public static void main(String[] args) {
 
 		Scanner scan = new Scanner(System.in);
+
 		int tamanho = Integer.parseInt(scan.nextLine());
-		TabelaHash<Integer, String> tabela = new TabelaHash<Integer, String>(tamanho);
+		TabelaHash<Integer, String> tabela = new TabelaHash<>(tamanho);
 
 		Integer key;
 		String value;
@@ -16,7 +17,6 @@ class HTChaining {
 		String operacao = "";
 
 		while (!operacao.equals("end")) {
-
 			entrada = scan.nextLine().split(" ");
 			operacao = entrada[0];
 
@@ -31,9 +31,11 @@ class HTChaining {
 				key = Integer.parseInt(entrada[1]);
 				tabela.remove(key);
 				break;
+
 			case "keys":
 				System.out.println(Arrays.toString(tabela.keys()));
 				break;
+
 			case "values":
 				System.out.println(Arrays.toString(tabela.values()));
 				break;
@@ -59,27 +61,30 @@ class TabelaHash<K, V> {
 	}
 
 	public void put(K key, V value) {
-		int hash = this.funcaoHash(key);
 
+		int hash = this.funcaoHash(key);
 		Pair<K, V> par = new Pair<K, V>(key, value);
 
 		if (!this.tabela[hash].contains(par)) {
 			this.tabela[hash].add(par);
 			this.elementos++;
 		} else {
-			boolean finish = false;
-			int index = 0;
-			while (index < this.tabela.length && !finish) {
-				if (this.tabela[hash].get(index).getkey().equals(key)) {
-					this.tabela[hash].get(index).setValue(value);
-					finish = true;
-				}
-				index++;
-			}
-
+			this.replaceValue(hash, key, value);
 		}
 
 		System.out.println(this.toString());
+	}
+
+	private void replaceValue(int hash, K key, V value) {
+		boolean finish = false;
+		int index = 0;
+		while (index < this.tabela.length && !finish) {
+			if (this.tabela[hash].get(index).getkey().equals(key)) {
+				this.tabela[hash].get(index).setValue(value);
+				finish = true;
+			}
+			index++;
+		}
 	}
 
 	public void remove(K key) {
@@ -125,8 +130,8 @@ class TabelaHash<K, V> {
 	@Override
 	public String toString() {
 		return Arrays.toString(this.tabela);
-
 	}
+
 }
 
 class Pair<K, V> {
@@ -175,8 +180,6 @@ class Pair<K, V> {
 
 	@Override
 	public String toString() {
-		String result = "<";
-		result += this.key + ", " + this.value + ">";
-		return result;
+		return "<" + this.key + ", " + this.value + ">";
 	}
 }
