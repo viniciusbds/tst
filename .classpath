@@ -49,5 +49,7 @@
 	<classpathentry kind="src" path="MarianaEOsLivros"/>
 	<classpathentry kind="src" path="FilaComLinkedList"/>
 	<classpathentry kind="src" path="HTChaining"/>
+	<classpathentry kind="src" path="WordCloud"/>
+	<classpathentry kind="src" path="HashSet"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
