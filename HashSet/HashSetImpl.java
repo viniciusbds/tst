@@ -79,14 +79,17 @@ class HashSetInteger {
 	public void remove(int value) {
 		if (!isEmpty()) {
 			int i = 0;
-			int j = this.probing(value, i++);
-			while (i < this.tabela.length && !this.tabela[j].getValue().equals(value)) {
+			int j = this.probing(value, i);
+
+			boolean removeu = false;
+			while (i < this.tabela.length - 1 && this.tabela[j] != null && !removeu) {
 				j = this.probing(value, i);
+				if (this.tabela[j].getValue().equals(value)) {
+					this.tabela[j].delete();
+					this.elementos--;
+					removeu = true;
+				}
 				i++;
-			}
-			if (i < this.tabela.length) {
-				this.tabela[j].delete();
-				this.elementos--;
 			}
 		}
 		System.out.println(this.toString());
@@ -95,7 +98,15 @@ class HashSetInteger {
 	public boolean contains(Integer value) {
 		boolean contains = false;
 		if (!isEmpty()) {
-
+			int i = 0;
+			int j = this.probing(value, i);
+			while (i < this.tabela.length && !this.tabela[j].isDeleted() && !contains) {
+				j = this.probing(value, i);
+				if (this.tabela[j].equals(value)) {
+					contains = true;
+				}
+				i++;
+			}
 		}
 		return contains;
 	}
@@ -113,18 +124,6 @@ class HashSetInteger {
 		return Arrays.toString(this.tabela);
 	}
 
-	private int getHash(Integer value) {
-		return this.probing((int) value, 0);
-	}
-
-	private int probFunction(int k, int i) {
-		return (this.funcaoLinear(k) + i) % this.tabela.length;
-	}
-
-	private int funcaoLinear(int k) {
-		return k % 5;
-	}
-
 	private int probing(int k, int i) {
 
 		int index = this.probFunction(k, i);
@@ -138,6 +137,14 @@ class HashSetInteger {
 				return this.probing(k, i + 1);
 			}
 		}
+	}
+
+	private int probFunction(int k, int i) {
+		return (this.funcaoLinear(k) + i) % this.tabela.length;
+	}
+
+	private int funcaoLinear(int k) {
+		return k % 5;
 	}
 
 }
