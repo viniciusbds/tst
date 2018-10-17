@@ -147,10 +147,6 @@ class Celula {
 		return value;
 	}
 
-	public void setValor(Integer valor) {
-		this.value = valor;
-	}
-
 	@Override
 	public String toString() {
 		String result = null;
