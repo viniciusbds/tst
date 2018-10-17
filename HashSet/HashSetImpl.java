@@ -67,6 +67,7 @@ class HashSetInteger {
 				j = this.probFunction(value, i);
 				if (this.tabela[j] == null || this.tabela[j].isDeleted()) {
 					this.tabela[j] = new Celula(value);
+					this.elementos++;
 					inseriu = true;
 				}
 				i++;
@@ -85,6 +86,7 @@ class HashSetInteger {
 			}
 			if (i < this.tabela.length) {
 				this.tabela[j].delete();
+				this.elementos--;
 			}
 		}
 		System.out.println(this.toString());
