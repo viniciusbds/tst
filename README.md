@@ -68,6 +68,9 @@
 | 43 | [Mariana e os Livros](https://github.com/Viniciuswps/tst-eda/blob/master/MarianaEOsLivros/README.md) | [Java](https://github.com/Viniciuswps/tst-eda/tree/master/MarianaEOsLivros/MarianaEOsLivros.java) |
 | 44 | [Fila com LinkedList](https://github.com/Viniciuswps/tst-eda/blob/master/FilaComLinkedList/README.md) | [Java](https://github.com/Viniciuswps/tst-eda/tree/master/FilaComLinkedList/FilaComLinkedList.java) |
 | 45 | [HT Chaining](https://github.com/Viniciuswps/tst-eda/blob/master/HTChaining/README.md) | [Java](https://github.com/Viniciuswps/tst-eda/tree/master/HTChaining/HTChaining.java) |
+| 46 | [Word Cloud](https://github.com/Viniciusbds/tst-eda/blob/master/WordCloud/README.md) | [Java](https://github.com/Viniciuswps/tst-eda/tree/master/WordCloud/WordCloud.java) |
+| 47 | [HashSet](https://github.com/Viniciusbds/tst-eda/blob/master/HashSet/README.md) | [Java](https://github.com/Viniciuswps/tst-eda/tree/master/HashSet/HashSetImpl.java) |
+| 48 | [HT Probing Linear](https://github.com/Viniciusbds/tst-eda/blob/master/HTProbingLinear/README.md) | [Java](https://github.com/Viniciuswps/tst-eda/tree/master/HTProbingLinear/HTProbingLinear.java) |
 ------------------------------
 
 ## Problemas Legais

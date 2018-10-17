@@ -1,13 +1,6 @@
 import java.util.Arrays;
 import java.util.Scanner;
 
-/**
- * 
- * Erro na deleção !!!
- * 
- * @author viniciusbds
- *
- */
 class HashSetImpl {
 	public static void main(String[] args) {
 
@@ -58,7 +51,7 @@ class HashSetInteger {
 	}
 
 	public void put(int value) {
-		if (!isFull()) {
+		if (!isFull() && !this.contains(value)) {
 			int i = 0;
 			int j;
 
@@ -77,14 +70,15 @@ class HashSetInteger {
 	}
 
 	public void remove(int value) {
-		if (!isEmpty()) {
+		if (this.contains(value)) {
 			int i = 0;
-			int j = this.probing(value, i);
+			int j = this.probFunction(value, i);
 
 			boolean removeu = false;
-			while (i < this.tabela.length - 1 && this.tabela[j] != null && !removeu) {
-				j = this.probing(value, i);
-				if (this.tabela[j].getValue().equals(value)) {
+
+			while (i < this.tabela.length && this.tabela[j] != null && !removeu) {
+				j = this.probFunction(value, i);
+				if (this.tabela[j].getValue() == value) {
 					this.tabela[j].delete();
 					this.elementos--;
 					removeu = true;
@@ -95,15 +89,16 @@ class HashSetInteger {
 		System.out.println(this.toString());
 	}
 
-	public boolean contains(Integer value) {
+	public boolean contains(int value) {
 		boolean contains = false;
 		if (!isEmpty()) {
 			int i = 0;
-			int j = this.probing(value, i);
-			while (i < this.tabela.length && !this.tabela[j].isDeleted() && !contains) {
-				j = this.probing(value, i);
-				if (this.tabela[j].equals(value)) {
-					contains = true;
+			while (i < this.tabela.length - 1 && !contains) {
+				int j = this.probFunction(value, i);
+				if (this.tabela[j] != null && !this.tabela[j].isDeleted()) {
+					if (this.tabela[j].getValue() == value) {
+						contains = true;
+					}
 				}
 				i++;
 			}
@@ -124,27 +119,8 @@ class HashSetInteger {
 		return Arrays.toString(this.tabela);
 	}
 
-	private int probing(int k, int i) {
-
-		int index = this.probFunction(k, i);
-
-		if (i >= this.tabela.length) {
-			return -1;
-		} else {
-			if (this.tabela[index] == null) {
-				return index;
-			} else {
-				return this.probing(k, i + 1);
-			}
-		}
-	}
-
 	private int probFunction(int k, int i) {
-		return (this.funcaoLinear(k) + i) % this.tabela.length;
-	}
-
-	private int funcaoLinear(int k) {
-		return k % 5;
+		return (k + i) % this.tabela.length;
 	}
 
 }
