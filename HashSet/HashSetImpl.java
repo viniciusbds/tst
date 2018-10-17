@@ -1,13 +1,20 @@
 import java.util.Arrays;
 import java.util.Scanner;
 
+/**
+ * 
+ * Erro na deleção !!!
+ * 
+ * @author viniciusbds
+ *
+ */
 class HashSetImpl {
 	public static void main(String[] args) {
 
 		Scanner scan = new Scanner(System.in);
 
 		int tamanho = Integer.parseInt(scan.nextLine());
-		HashSet<Integer> conjunto = new HashSet<>(tamanho);
+		HashSetInteger conjunto = new HashSetInteger(tamanho);
 
 		Integer value;
 		String entrada[];
@@ -40,34 +47,55 @@ class HashSetImpl {
 
 }
 
-class HashSet<T> {
+class HashSetInteger {
 
-	private T[] tabela;
+	private Celula[] tabela;
 	private int elementos;
 
-	public HashSet(int tamanho) {
-		this.tabela = (T[]) new Object[tamanho];
+	public HashSetInteger(int tamanho) {
+		this.tabela = new Celula[tamanho];
 		this.elementos = 0;
 	}
 
-	public void put(T value) {
+	public void put(int value) {
 		if (!isFull()) {
-			int hash = this.getHash(value);
+			int i = 0;
+			int j;
 
+			boolean inseriu = false;
+			while (i < this.tabela.length && !inseriu) {
+				j = this.probFunction(value, i);
+				if (this.tabela[j] == null || this.tabela[j].isDeleted()) {
+					this.tabela[j] = new Celula(value);
+					inseriu = true;
+				}
+				i++;
+			}
 		}
 		System.out.println(this.toString());
 	}
 
-	public void remove(T value) {
+	public void remove(int value) {
+		if (!isEmpty()) {
+			int i = 0;
+			int j = this.probing(value, i++);
+			while (i < this.tabela.length && !this.tabela[j].getValue().equals(value)) {
+				j = this.probing(value, i);
+				i++;
+			}
+			if (i < this.tabela.length) {
+				this.tabela[j].delete();
+			}
+		}
+		System.out.println(this.toString());
+	}
+
+	public boolean contains(Integer value) {
+		boolean contains = false;
 		if (!isEmpty()) {
 
 		}
-		System.out.println(this.toString());
-	}
-
-	public boolean contains(T value) {
-		// TODO Auto-generated method stub
-		return false;
+		return contains;
 	}
 
 	public boolean isEmpty() {
@@ -83,23 +111,66 @@ class HashSet<T> {
 		return Arrays.toString(this.tabela);
 	}
 
-	private int hashKey(T key) {
-		return ((int) key % this.tabela.length);
+	private int getHash(Integer value) {
+		return this.probing((int) value, 0);
 	}
 
-	private int getHash(T value) {
-		int hashCode = this.hashKey(value);
-		return this.probing(hashCode, 0);
+	private int probFunction(int k, int i) {
+		return (this.funcaoLinear(k) + i) % this.tabela.length;
 	}
 
-	private int probing(int hashCode, int probing) {
-		int result = -1;
-		if (probing < this.tabela.length) {
-			if (this.tabela[hashCode] == null) {
-				result = hashCode;
+	private int funcaoLinear(int k) {
+		return k % 5;
+	}
+
+	private int probing(int k, int i) {
+
+		int index = this.probFunction(k, i);
+
+		if (i >= this.tabela.length) {
+			return -1;
+		} else {
+			if (this.tabela[index] == null) {
+				return index;
 			} else {
-				result = probing(hashCode, probing + 1);
+				return this.probing(k, i + 1);
 			}
+		}
+	}
+
+}
+
+class Celula {
+
+	private Integer value;
+	private boolean deleted;
+
+	public Celula(Integer valor) {
+		this.value = valor;
+		this.deleted = false;
+	}
+
+	public void delete() {
+		this.deleted = true;
+	}
+
+	public boolean isDeleted() {
+		return this.deleted;
+	}
+
+	public Integer getValue() {
+		return value;
+	}
+
+	public void setValor(Integer valor) {
+		this.value = valor;
+	}
+
+	@Override
+	public String toString() {
+		String result = null;
+		if (!this.deleted) {
+			result = this.value + "";
 		}
 		return result;
 	}
