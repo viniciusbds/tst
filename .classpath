@@ -51,5 +51,6 @@
 	<classpathentry kind="src" path="HTChaining"/>
 	<classpathentry kind="src" path="WordCloud"/>
 	<classpathentry kind="src" path="HashSet"/>
+	<classpathentry kind="src" path="HTProbingLinear"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
