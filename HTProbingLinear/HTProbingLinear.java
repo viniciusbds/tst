@@ -1,14 +1,14 @@
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class HTProbingLinear {
+class HTProbingLinear {
+	
 	public static void main(String[] args) {
 
 		Scanner scan = new Scanner(System.in);
 
 		int tamanho = Integer.parseInt(scan.nextLine());
-		HashTableProbingLinear<Integer, String> tabela = new HashTableProbingLinear<>(tamanho);
+		HashTableProbingLinear tabela = new HashTableProbingLinear(tamanho);
 
 		Integer key;
 		String value;
@@ -23,12 +23,12 @@ public class HTProbingLinear {
 			case "put":
 				key = Integer.parseInt(entrada[1]);
 				value = entrada[2];
-				tabela.put(key, value);
+				System.out.println(tabela.put(key, value));
 				break;
 
 			case "remove":
 				key = Integer.parseInt(entrada[1]);
-				tabela.remove(key);
+				System.out.println(tabela.remove(key));
 				break;
 
 			case "keys":
@@ -45,36 +45,89 @@ public class HTProbingLinear {
 	}
 }
 
-class HashTableProbingLinear<K, V> {
-	private ArrayList<Tupla<K, V>>[] tabela;
+class HashTableProbingLinear {
+
+	private Par[] tabela;
 	private int elementos;
 
-	@SuppressWarnings("unchecked")
 	public HashTableProbingLinear(int tamanho) {
-		this.tabela = new ArrayList[tamanho];
+		this.tabela = new Par[tamanho];
 	}
 
-	public void put(K key, V value) {
-		if (this.elementos < this.tabela.length) {
+	public String put(Integer key, String value) {
+		if (!this.isFull()) {
+			int i = 0;
+			int j;
+			boolean inseriu = false;
+			while (i < this.tabela.length && !inseriu) {
+				j = this.funcaoHash(key, i);
+				if (this.tabela[j] != null && this.tabela[j].getKey() == key) {
+
+					this.remove(key);
+
+				}
+				if (this.tabela[j] == null || this.tabela[j].isDeleted()) {
+					Par par = new Par(key, value);
+					this.tabela[j] = par;
+					this.elementos++;
+					inseriu = true;
+				}
+				i++;
+			}
 
 		}
-		System.out.println(this.toString());
+		return this.toString();
 	}
 
-	public void remove(K key) {
-
-		System.out.println(this.toString());
+	public String remove(Integer key) {
+		if (!isEmpty()) {
+			int i = 0;
+			int j;
+			boolean removeu = false;
+			while (i < this.tabela.length && !removeu) {
+				j = this.funcaoHash(key, i);
+				if (this.tabela[j] != null && this.tabela[j].getKey().equals(key)) {
+					this.tabela[j].delete();
+					this.elementos--;
+					removeu = true;
+				}
+				i++;
+			}
+		}
+		return this.toString();
 	}
 
-	@SuppressWarnings("unchecked")
-	public K[] keys() {
-		return null;
+	public Integer[] keys() {
+		Integer[] keys = new Integer[this.elementos];
+		int index = 0;
+		for (int i = 0; i < this.tabela.length; i++) {
+			if (this.tabela[i] != null && !this.tabela[i].isDeleted()) {
+				keys[index++] = this.tabela[i].getKey();
+			}
+
+		}
+		Arrays.sort(keys);
+		return keys;
 	}
 
-	@SuppressWarnings("unchecked")
-	public V[] values() {
+	public String[] values() {
+		String[] values = new String[this.elementos];
+		int index = 0;
+		for (int i = 0; i < this.tabela.length; i++) {
+			if (this.tabela[i] != null && !this.tabela[i].isDeleted()) {
+				values[index++] = this.tabela[i].getValue();
+			}
+		}
+		Arrays.sort(values);
+		return values;
+	}
 
-		return null;
+	public boolean isFull() {
+		return this.elementos == this.tabela.length;
+	}
+
+	public boolean isEmpty() {
+		return this.elementos == 0;
 	}
 
 	@Override
@@ -82,66 +135,41 @@ class HashTableProbingLinear<K, V> {
 		return Arrays.toString(this.tabela);
 	}
 
-	public int funcaoHash(K key) {
-		return (Integer) key % this.tabela.length;
-	}
-
-	private int getHash(K key) {
-		int hashCode = this.funcaoHash(key);
-		return this.probing(hashCode, 0);
-	}
-
-	private int probing(int hashCode, int probing) {
-		int result = -1;
-		if (probing < this.tabela.length) {
-			if (this.tabela[hashCode] == null) {
-				result = hashCode;
-			} else {
-				result = probing(hashCode, probing + 1);
-			}
-		}
-		return result;
+	public int funcaoHash(Integer k, int i) {
+		return (k + i) % this.tabela.length;
 	}
 
 }
 
-class Tupla<K, V> {
+class Par {
 
-	private String status;
-	private K key;
-	private V value;
+	private Integer key;
+	private String value;
+	private boolean deleted;
 
-	public Tupla(K key, V value) {
-		this.status = "non-deleted";
+	public Par(Integer key, String value) {
+
 		this.key = key;
 		this.value = value;
+		this.deleted = false;
 	}
 
-	public String getStatus() {
-		return status;
+	public boolean isDeleted() {
+		return deleted;
 	}
 
-	public void setStatus(String status) {
-		this.status = status;
+	public void delete() {
+		this.deleted = true;
 	}
 
-	public K getkey() {
+	public Integer getKey() {
 		return this.key;
 	}
 
-	public V getValue() {
+	public String getValue() {
 		return this.value;
 	}
 
-	public void setKey(K key) {
-		this.key = key;
-	}
-
-	public void setValue(V value) {
-		this.value = value;
-	}
-
-	@SuppressWarnings("unchecked")
 	@Override
 	public boolean equals(Object obj) {
 		if (this == obj)
@@ -150,7 +178,7 @@ class Tupla<K, V> {
 			return false;
 		if (getClass() != obj.getClass())
 			return false;
-		Tupla<K, V> other = (Tupla<K, V>) obj;
+		Par other = (Par) obj;
 		if (key == null) {
 			if (other.key != null)
 				return false;
@@ -161,6 +189,10 @@ class Tupla<K, V> {
 
 	@Override
 	public String toString() {
-		return "<" + this.key + ", " + this.value + ">";
+		String result = null;
+		if (!deleted) {
+			result = "<" + this.key + ", " + this.value + ">";
+		}
+		return result;
 	}
 }
