@@ -18,6 +18,7 @@ class Mapa {
 
 	private Palavra[] tabelaDePalavras;
 	private int qtdPalavras;
+	private final double THRESHOLD = 0.75;
 
 	public Mapa(int tamanho) {
 		this.tabelaDePalavras = new Palavra[tamanho];
@@ -25,8 +26,75 @@ class Mapa {
 	}
 
 	public void put(String palavra) {
-		if (this)
-		
+
+		if (this.contains(palavra)) {
+			int i = 0;
+			int j;
+			boolean inseriu = false;
+			while (i < this.tabelaDePalavras.length && !inseriu) {
+				j = this.probHashFunction(palavra, i);
+				if (this.tabelaDePalavras[j].equals(palavra)) {
+					this.tabelaDePalavras[j].maisUm();
+					inseriu = true;
+				}
+				i++;
+			}
+		} else {
+			this.verificaCapacidade();
+			int i = 0;
+			int j;
+			boolean inseriu = false;
+			while (i < this.tabelaDePalavras.length && !inseriu) {
+				j = this.probHashFunction(palavra, i);
+				if (this.tabelaDePalavras[j] != null) {
+					this.tabelaDePalavras[j] = new Palavra(palavra);
+					inseriu = true;
+				}
+				i++;
+			}
+			this.qtdPalavras++;
+
+		}
+
+	}
+
+	private void rehash(int novaCapacidade) {
+
+		Palavra[] arrayAux = new Palavra[this.tabelaDePalavras.length];
+		for (int i = 0; i < this.tabelaDePalavras.length; i++) {
+			arrayAux[i] = this.tabelaDePalavras[i];
+		}
+
+		this.tabelaDePalavras = new Palavra[novaCapacidade];
+		for (int i = 0; i < arrayAux.length; i++) {
+
+			for (int j = 0; j <  arrayAux[i].getFrequencia(); j++) {
+				this.put(arrayAux[i].getPalavra());
+			}
+
+		}
+
+	}
+
+	private void verificaCapacidade() {
+		if (++this.qtdPalavras > this.tabelaDePalavras.length * this.THRESHOLD) {
+			int novaCapacidade = this.getPrimeAbove(2 * this.tabelaDePalavras.length);
+			this.rehash(novaCapacidade);
+		}
+	}
+
+	public boolean contains(String palavra) {
+		boolean contains = false;
+		int i = 0;
+		int j;
+		while (i < this.tabelaDePalavras.length && !contains) {
+			j = this.probHashFunction(palavra, i);
+			if (this.tabelaDePalavras[j] != null && this.tabelaDePalavras[j].getPalavra().equals(palavra)) {
+				contains = true;
+			}
+			i++;
+		}
+		return contains;
 	}
 
 	private int getPrimeAbove(int number) {
@@ -48,8 +116,8 @@ class Mapa {
 		return result;
 	}
 
-	private int probHashFunction(int key, int i) {
-		return (key + i) % this.tabelaDePalavras.length;
+	private int probHashFunction(String palavra, int i) {
+		return (Math.abs(palavra.hashCode()) + i) % this.tabelaDePalavras.length;
 	}
 
 }
@@ -64,6 +132,11 @@ class Palavra {
 		this.frequencia = 0;
 	}
 
+	public Palavra(String palavra, int frequencia) {
+		this.palavra = palavra;
+		this.frequencia = frequencia;
+	}
+
 	public String getPalavra() {
 		return palavra;
 	}
@@ -76,8 +149,8 @@ class Palavra {
 		return frequencia;
 	}
 
-	public void setFrequencia(int frequencia) {
-		this.frequencia = frequencia;
+	public void maisUm() {
+		this.frequencia++;
 	}
 
 	@Override
