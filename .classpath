@@ -53,5 +53,6 @@
 	<classpathentry kind="src" path="HashSet"/>
 	<classpathentry kind="src" path="HTProbingLinear"/>
 	<classpathentry kind="src" path="MatrizDeAdjacencia"/>
+	<classpathentry kind="src" path="TorreDeHanoi"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
