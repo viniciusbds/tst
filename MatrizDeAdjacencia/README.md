@@ -2,9 +2,9 @@
 
 Matriz de adjacência é uma forma matemática de representar grafos. Para um grafo qualquer com N vértices, constrói-se uma matriz NXN onde o valor de M[i][j] representa o peso da aresta entre os vértices representados pela linha i e coluna j. Por exemplo, para um grafo não dirigido representando pela figura abaixo temos a seguinte matriz de adjacência:
 
-![Grafo](https://github.com/Viniciuswps/tst-eda/edit/master/MatrizDeAdjacencia/grafo_nao_dirigido.png)
+![Grafo](https://github.com/Viniciuswps/tst-eda/blob/master/MatrizDeAdjacencia/grafo_nao_dirigido.png)
 
-      a b c d e f g
+    a b c d e f g
     a 0 8 0 8 0 0 0
     b 8 0 5 8 0 3 0
     c 0 5 0 0 0 4 2
