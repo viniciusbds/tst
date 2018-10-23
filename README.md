@@ -71,6 +71,7 @@
 | 46 | [Word Cloud](https://github.com/Viniciusbds/tst-eda/blob/master/WordCloud/README.md) | [Java](https://github.com/Viniciuswps/tst-eda/tree/master/WordCloud/WordCloud.java) |
 | 47 | [HashSet](https://github.com/Viniciusbds/tst-eda/blob/master/HashSet/README.md) | [Java](https://github.com/Viniciuswps/tst-eda/tree/master/HashSet/HashSetImpl.java) |
 | 48 | [HT Probing Linear](https://github.com/Viniciusbds/tst-eda/blob/master/HTProbingLinear/README.md) | [Java](https://github.com/Viniciuswps/tst-eda/tree/master/HTProbingLinear/HTProbingLinear.java) |
+| 49 | [Matriz de Adjacencia](https://github.com/Viniciusbds/tst-eda/blob/master/MatrizDeAdjacencia/README.md) | [Java](https://github.com/Viniciuswps/tst-eda/tree/master/MatrizDeAdjacencia/MatrizDeAdjacencia.java) |
 ------------------------------
 
 ## Problemas Legais
