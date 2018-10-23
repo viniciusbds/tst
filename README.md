@@ -71,7 +71,8 @@
 | 46 | [Word Cloud](https://github.com/Viniciusbds/tst-eda/blob/master/WordCloud/README.md) | [Java](https://github.com/Viniciuswps/tst-eda/tree/master/WordCloud/WordCloud.java) |
 | 47 | [HashSet](https://github.com/Viniciusbds/tst-eda/blob/master/HashSet/README.md) | [Java](https://github.com/Viniciuswps/tst-eda/tree/master/HashSet/HashSetImpl.java) |
 | 48 | [HT Probing Linear](https://github.com/Viniciusbds/tst-eda/blob/master/HTProbingLinear/README.md) | [Java](https://github.com/Viniciuswps/tst-eda/tree/master/HTProbingLinear/HTProbingLinear.java) |
-| 49 | [Matriz de Adjacencia](https://github.com/Viniciusbds/tst-eda/blob/master/MatrizDeAdjacencia/README.md) | [Java](https://github.com/Viniciuswps/tst-eda/tree/master/MatrizDeAdjacencia/MatrizDeAdjacencia.java) |
+| 49 | [Matriz de Adjacência](https://github.com/Viniciusbds/tst-eda/blob/master/MatrizDeAdjacencia/README.md) | [Java](https://github.com/Viniciuswps/tst-eda/tree/master/MatrizDeAdjacencia/MatrizDeAdjacencia.java) |
+| 50 | [Torre de Hanoi](https://github.com/Viniciusbds/tst-eda/blob/master/TorreDeHanoi/README.md) | [Java](https://github.com/Viniciuswps/tst-eda/tree/master/TorreDeHanoi/TorreDeHanoi.java) |
 ------------------------------
 
 ## Problemas Legais
@@ -84,8 +85,7 @@
 | 2 | [Ordenação De Placas](https://github.com/Viniciuswps/tst-eda/blob/master/OrdenacaoDePlacas/README.md) | [Java](https://github.com/Viniciuswps/tst-eda/tree/master/OrdenacaoDePlacas/OrdenacaoDePlacas.java) | 
 | 3 | [Teorema Mestre Elegante*](https://github.com/Viniciuswps/tst-eda/blob/master/TeoremaMestre/README.md) | [Java](https://github.com/Viniciuswps/tst-eda/tree/master/TeoremaMestre/SolucaoElegante/SolucaoElegante.java)|
 | 4 | [Potência Recursiva Elegante*](https://github.com/Viniciuswps/tst-eda/blob/master/PotenciaRecursiva/README.md) | [Java](https://github.com/Viniciuswps/tst-eda/blob/master/PotenciaRecursiva/solucaoElegante/SolucaoElegante.java) |
-| 5 | [Pilha com Array](https://github.com/Viniciuswps/tst-eda/blob/master/PilhaComArray/README.md) | [Java](https://github.com/Viniciuswps/tst-eda/tree/master/PilhaComArray/PilhaComArray.java) | 
-
+| 5 | [Torre de Hanoi](https://github.com/Viniciusbds/tst-eda/blob/master/TorreDeHanoi/README.md) | [Java](https://github.com/Viniciuswps/tst-eda/tree/master/TorreDeHanoi/TorreDeHanoi.java) |
 
 ------------------------------
 
