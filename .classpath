@@ -52,5 +52,6 @@
 	<classpathentry kind="src" path="WordCloud"/>
 	<classpathentry kind="src" path="HashSet"/>
 	<classpathentry kind="src" path="HTProbingLinear"/>
+	<classpathentry kind="src" path="MatrizDeAdjacencia"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
