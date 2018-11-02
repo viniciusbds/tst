@@ -88,6 +88,7 @@ class BSTNodeAltura<T> {
 	private T data;
 	private BSTNodeAltura<T> left;
 	private BSTNodeAltura<T> right;
+	private BSTNodeAltura<T> parent;
 
 	public BSTNodeAltura() {
 
@@ -145,5 +146,4 @@ class BSTNodeAltura<T> {
 		this.parent = parent;
 	}
 
-	private BSTNodeAltura<T> parent;
 }

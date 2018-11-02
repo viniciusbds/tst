@@ -103,6 +103,7 @@ class BSTNodeBusca<T> {
 	private T data;
 	private BSTNodeBusca<T> left;
 	private BSTNodeBusca<T> right;
+	private BSTNodeBusca<T> parent;
 
 	public BSTNodeBusca() {
 
@@ -160,5 +161,4 @@ class BSTNodeBusca<T> {
 		this.parent = parent;
 	}
 
-	private BSTNodeBusca<T> parent;
 }
