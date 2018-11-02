@@ -75,6 +75,7 @@
 | 50 | [Torre de Hanoi](https://github.com/Viniciusbds/tst-eda/blob/master/TorreDeHanoi/README.md) | [Java](https://github.com/Viniciuswps/tst-eda/tree/master/TorreDeHanoi/TorreDeHanoi.java) |
 | 51 | [Busca em **BST**](https://github.com/Viniciusbds/tst-eda/blob/master/BuscaBST/README.md) | [Java](https://github.com/Viniciuswps/tst-eda/tree/master/BuscaBST/BuscaBST.java) |
 | 52 | [Altura **BST**](https://github.com/Viniciusbds/tst-eda/blob/master/AlturaBST/README.md) | [Java](https://github.com/Viniciuswps/tst-eda/tree/master/AlturaBST/AlturaBST.java) |
+| 53 | [Elementos Menores **BST**](https://github.com/Viniciusbds/tst-eda/blob/master/ElementosMenoresBST/README.md) | [Java](https://github.com/Viniciuswps/tst-eda/tree/master/ElementosMenoresBST/ElementosMenoresBST.java) |
 ------------------------------
 
 ## Problemas Legais
