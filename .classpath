@@ -55,5 +55,6 @@
 	<classpathentry kind="src" path="MatrizDeAdjacencia"/>
 	<classpathentry kind="src" path="TorreDeHanoi"/>
 	<classpathentry kind="src" path="BuscaBST"/>
+	<classpathentry kind="src" path="AlturaBST"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
