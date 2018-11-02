@@ -14,13 +14,10 @@ class VetorCircular {
 		String result = "";
 		int index = 0;
 		for (int i = 0; i < quantidadeElementos - 1; i++) {
-			result += array[index] + " ";
+			result += array[index % array.length] + " ";
 			index++;
-			if (index == array.length) {
-				index = 0;
-			}
 		}
-		result += array[index];
+		result += array[index % array.length];
 		return result;
 	}
 
@@ -32,5 +29,5 @@ class VetorCircular {
 		}
 		return array;
 	}
-	
+
 }
