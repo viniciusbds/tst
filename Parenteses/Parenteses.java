@@ -1,5 +1,6 @@
 import java.util.LinkedList;
 import java.util.Scanner;
+import java.util.Stack;
 
 class Parenteses {
 
@@ -23,23 +24,29 @@ class Parenteses {
 
 	private static boolean sequenciaValida(LinkedList<String> sequencia) {
 
-		if (sequencia.size() % 2 != 0)
+		if (sequencia.size() % 2 != 0 || !sequencia.peekFirst().equals("("))
 			return false;
 
+		Stack<String> pilha = new Stack<String>();
 		boolean result = true;
-
-		String primeiro, ultimo;
-		while (result && sequencia.size() > 0) {
-			primeiro = sequencia.peekFirst();
-			ultimo = sequencia.peekLast();
-			if (!primeiro.equals("(") || primeiro.equals(ultimo)) {
+		int i = 0;
+		
+		while (result && i < sequencia.size()) {
+			if (sequencia.get(i).equals(")") && pilha.isEmpty()) {
 				result = false;
 			}
-			sequencia.removeFirst();
-			sequencia.removeLast();
-		}
 
-		return result;
+			else if (sequencia.get(i).equals("(")) {
+				pilha.push(sequencia.get(i));
+			}
+
+			else {
+				pilha.pop();
+			}
+
+			i++;
+		}
+		return result && pilha.isEmpty();
 	}
 
 }
