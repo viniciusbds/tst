@@ -58,5 +58,6 @@
 	<classpathentry kind="src" path="AlturaBST"/>
 	<classpathentry kind="src" path="ElementosMenoresBST"/>
 	<classpathentry kind="src" path="MinBST"/>
+	<classpathentry kind="src" path="MaxBST"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

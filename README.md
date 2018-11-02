@@ -77,6 +77,8 @@
 | 52 | [Altura **BST**](https://github.com/Viniciusbds/tst-eda/blob/master/AlturaBST/README.md) | [Java](https://github.com/Viniciuswps/tst-eda/tree/master/AlturaBST/AlturaBST.java) |
 | 53 | [Elementos Menores **BST**](https://github.com/Viniciusbds/tst-eda/blob/master/ElementosMenoresBST/README.md) | [Java](https://github.com/Viniciuswps/tst-eda/tree/master/ElementosMenoresBST/ElementosMenoresBST.java) |
 | 54 | [Min **BST**](https://github.com/Viniciusbds/tst-eda/blob/master/MinBST/README.md) | [Java](https://github.com/Viniciuswps/tst-eda/tree/master/MinBST/MinBST.java) |
+| 55 | [Max **BST**](https://github.com/Viniciusbds/tst-eda/blob/master/MaxBST/README.md) | [Java](https://github.com/Viniciuswps/tst-eda/tree/master/MaxBST/MaxBST.java) |
+
 ------------------------------
 
 ## Problemas Legais
