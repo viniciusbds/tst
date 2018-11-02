@@ -54,5 +54,6 @@
 	<classpathentry kind="src" path="HTProbingLinear"/>
 	<classpathentry kind="src" path="MatrizDeAdjacencia"/>
 	<classpathentry kind="src" path="TorreDeHanoi"/>
+	<classpathentry kind="src" path="BuscaBST"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

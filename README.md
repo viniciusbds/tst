@@ -73,6 +73,7 @@
 | 48 | [HT Probing Linear](https://github.com/Viniciusbds/tst-eda/blob/master/HTProbingLinear/README.md) | [Java](https://github.com/Viniciuswps/tst-eda/tree/master/HTProbingLinear/HTProbingLinear.java) |
 | 49 | [Matriz de Adjacência](https://github.com/Viniciusbds/tst-eda/blob/master/MatrizDeAdjacencia/README.md) | [Java](https://github.com/Viniciuswps/tst-eda/tree/master/MatrizDeAdjacencia/MatrizDeAdjacencia.java) |
 | 50 | [Torre de Hanoi](https://github.com/Viniciusbds/tst-eda/blob/master/TorreDeHanoi/README.md) | [Java](https://github.com/Viniciuswps/tst-eda/tree/master/TorreDeHanoi/TorreDeHanoi.java) |
+| 51 | [Busca em **BST**](https://github.com/Viniciusbds/tst-eda/blob/master/BuscaBST/README.md) | [Java](https://github.com/Viniciuswps/tst-eda/tree/master/BuscaBST/BuscaBST.java) |
 ------------------------------
 
 ## Problemas Legais
