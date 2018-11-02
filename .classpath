@@ -57,5 +57,6 @@
 	<classpathentry kind="src" path="BuscaBST"/>
 	<classpathentry kind="src" path="AlturaBST"/>
 	<classpathentry kind="src" path="ElementosMenoresBST"/>
+	<classpathentry kind="src" path="MinBST"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
