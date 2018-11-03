@@ -81,6 +81,7 @@
 | 55 | [Max **BST**](https://github.com/Viniciusbds/tst-eda/blob/master/MaxBST/README.md) | [Java](https://github.com/Viniciuswps/tst-eda/tree/master/MaxBST/MaxBST.java) |
 | 56 | [Predecessor **BST**](https://github.com/Viniciusbds/tst-eda/blob/master/PredecessorBST/README.md) | [Java](https://github.com/Viniciuswps/tst-eda/tree/master/PredecessorBST/PredecessorBST.java) |
 | 57 | [Sucessor **BST**](https://github.com/Viniciusbds/tst-eda/blob/master/SucessorBST/README.md) | [Java](https://github.com/Viniciuswps/tst-eda/tree/master/SucessorBST/SucessorBST.java) |
+| 58 | [Conta Nós Internos **BST**](https://github.com/Viniciusbds/tst-eda/blob/master/ContaNosInternosBST/README.md) | [Java](https://github.com/Viniciuswps/tst-eda/tree/master/ContaNosInternosBST/ContaNosInternosBST.java) |
 ------------------------------
 
 ## Problemas Legais
