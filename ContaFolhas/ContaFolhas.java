@@ -72,29 +72,6 @@ class BSTContaFolhas<T extends Comparable<T>> {
 		}
 	}
 
-	@SuppressWarnings("unchecked")
-	public T[] search(T element) {
-		List<T> lista = new ArrayList<T>();
-		this.search(root, element, lista);
-		return lista.toArray((T[]) new Comparable[lista.size()]);
-	}
-
-	private void search(BSTNodeContaFolhas<T> node, T element, List<T> lista) {
-		if (!node.isEmpty()) {
-
-			lista.add(node.getData());
-
-			if (element.equals(node.getData())) {
-
-			} else if (element.compareTo(node.getData()) > 0) {
-				this.search(node.getRight(), element, lista);
-			} else {
-				this.search(node.getLeft(), element, lista);
-			}
-
-		}
-	}
-
 	public int contaFolhas() {
 		int result = 0;
 		if (!isEmpty()) {
@@ -104,12 +81,16 @@ class BSTContaFolhas<T extends Comparable<T>> {
 	}
 
 	private int contaFolhas(BSTNodeContaFolhas<T> node) {
-		int result;
-		
-		if (node.isLeaf()) {
-			result = 1;
-		} else {
-			result = contaFolhas(node.getLeft()) + contaFolhas(node.getRight());
+		int result = 0;
+
+		if (!node.isEmpty()) {
+			
+			if (node.isLeaf()) {
+				result = 1;
+			} else {
+				result = contaFolhas(node.getLeft()) + contaFolhas(node.getRight());
+			}
+			
 		}
 
 		return result;
