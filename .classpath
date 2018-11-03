@@ -64,5 +64,6 @@
 	<classpathentry kind="src" path="ContaNosInternosBST"/>
 	<classpathentry kind="src" path="ContaFolhasBST"/>
 	<classpathentry kind="src" path="SomaFolhasBST"/>
+	<classpathentry kind="src" path="EncaminhamentoBST"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
