@@ -61,5 +61,8 @@
 	<classpathentry kind="src" path="MaxBST"/>
 	<classpathentry kind="src" path="PredecessorBST"/>
 	<classpathentry kind="src" path="SucessorBST"/>
+	<classpathentry kind="src" path="ContaNosInternosBST"/>
+	<classpathentry kind="src" path="ContaFolhas"/>
+	<classpathentry kind="src" path="SomaFolhas"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
