@@ -15,7 +15,7 @@ class ContaNosInternosBST {
 			bst.insert(element);
 		}
 
-		System.out.println(bst.size());
+		System.out.println(bst.contaNosInternos());
 
 		scan.close();
 	}
@@ -95,24 +95,24 @@ class BSTNosInternos<T extends Comparable<T>> {
 		}
 	}
 
-	public int size() {
-		return this.size(root);
+	public int contaNosInternos() {
+		return this.contaNosInternos(root);
 	}
 
-	private int size(BSTNodeNosInternos<T> node) {
+	private int contaNosInternos(BSTNodeNosInternos<T> node) {
 		int result = 0;
 		if (!node.isEmpty()) {
 			
 			if (!node.getLeft().isLeaf() && !node.getRight().isLeaf()) {
-				result = 1 + size(node.getLeft()) + size(node.getRight());
+				result = 1 + contaNosInternos(node.getLeft()) + contaNosInternos(node.getRight());
 			}
 
 			else if (!node.getLeft().isLeaf()) {
-				result = 1 + size(node.getLeft());
+				result = 1 + contaNosInternos(node.getLeft());
 			} 
 			
 			else if (!node.getRight().isLeaf()) {
-				result = 1 + size(node.getRight());
+				result = 1 + contaNosInternos(node.getRight());
 			}
 
 		}
