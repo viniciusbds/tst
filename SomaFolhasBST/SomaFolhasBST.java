@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class SomaFolhas {
+class SomaFolhasBST {
 
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
