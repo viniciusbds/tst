@@ -86,6 +86,7 @@
 | 60 | [Soma Folhas **BST**](https://github.com/Viniciusbds/tst-eda/blob/master/SomaFolhasBST/README.md) | [Java](https://github.com/Viniciuswps/tst-eda/tree/master/SomaFolhasBST/SomaFolhasBST.java) |
 | 61 | [Encaminhamento **BST**](https://github.com/Viniciusbds/tst-eda/blob/master/EncaminhamentoBST/README.md) | [Java](https://github.com/Viniciuswps/tst-eda/tree/master/EncaminhamentoBST/EncaminhamentoBST.java) |
 | 62 | [É Heap?](https://github.com/Viniciusbds/tst-eda/blob/master/EhHeap/README.md) | [Java](https://github.com/Viniciuswps/tst-eda/tree/master/EhHeap/EhHeap.java) |
+| 63 | [Build Heap](https://github.com/Viniciusbds/tst-eda/blob/master/BuildHeap/README.md) | [Java](https://github.com/Viniciuswps/tst-eda/tree/master/BuildHeap/BuildHeap.java) |
 
 ------------------------------
 
