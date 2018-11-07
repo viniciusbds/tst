@@ -5,11 +5,11 @@ class EhHeap {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 		int[] elements = getArrayInteiros(scan);
-		System.out.println(ehBST(elements));
+		System.out.println(ehHeap(elements));
 		scan.close();
 	}
 
-	public static boolean ehBST(int[] elements) {
+	public static boolean ehHeap(int[] elements) {
 		boolean result = true;
 		
 		int i = 0;
