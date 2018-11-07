@@ -71,11 +71,7 @@ class BSTSomaFolhas {
 	}
 
 	public int somaFolhas() {
-		int result = 0;
-		if (!isEmpty()) {
-			result = this.somaFolhas(root);
-		}
-		return result;
+		return this.somaFolhas(root);
 	}
 
 	private int somaFolhas(BSTNodeSomaFolhas node) {

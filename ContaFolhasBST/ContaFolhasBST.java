@@ -71,11 +71,7 @@ class BSTContaFolhas<T extends Comparable<T>> {
 	}
 
 	public int contaFolhas() {
-		int result = 0;
-		if (!isEmpty()) {
-			result = this.contaFolhas(root);
-		}
-		return result;
+		return this.contaFolhas(root);
 	}
 
 	private int contaFolhas(BSTNodeContaFolhas<T> node) {
