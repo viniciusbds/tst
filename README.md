@@ -85,6 +85,7 @@
 | 59 | [Conta Folhas **BST**](https://github.com/Viniciusbds/tst-eda/blob/master/ContaFolhasBST/README.md) | [Java](https://github.com/Viniciuswps/tst-eda/tree/master/ContaFolhasBST/ContaFolhasBST.java) |
 | 60 | [Soma Folhas **BST**](https://github.com/Viniciusbds/tst-eda/blob/master/SomaFolhasBST/README.md) | [Java](https://github.com/Viniciuswps/tst-eda/tree/master/SomaFolhasBST/SomaFolhasBST.java) |
 | 61 | [Encaminhamento **BST**](https://github.com/Viniciusbds/tst-eda/blob/master/EncaminhamentoBST/README.md) | [Java](https://github.com/Viniciuswps/tst-eda/tree/master/EncaminhamentoBST/EncaminhamentoBST.java) |
+| 62 | [É Heap?](https://github.com/Viniciusbds/tst-eda/blob/master/EhHeap/README.md) | [Java](https://github.com/Viniciuswps/tst-eda/tree/master/EhHeap/EhHeap.java) |
 
 ------------------------------
 
