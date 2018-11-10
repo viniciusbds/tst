@@ -67,5 +67,6 @@
 	<classpathentry kind="src" path="EncaminhamentoBST"/>
 	<classpathentry kind="src" path="EhHeap"/>
 	<classpathentry kind="src" path="BuildHeap"/>
+	<classpathentry kind="src" path="BalanceBST"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
