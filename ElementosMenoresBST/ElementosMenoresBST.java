@@ -125,21 +125,22 @@ class BSTElementosMenores<T extends Comparable<T>> {
 	}
 
 	public int qtdMenores(T element) {
-		BSTNodeElementosMenores<T> node = this.search(element);
-		return qtdMenores(node);
+		return qtdMenores(root, element);
 	}
 
-	private int qtdMenores(BSTNodeElementosMenores<T> node) {
-		BSTNodeElementosMenores<T> nodeMaior = this.getMaiorNoMenorQueNode(node, node.getData());
-		return size(nodeMaior) - (1 + size(node.getRight()));
-	}
-
-	private BSTNodeElementosMenores<T> getMaiorNoMenorQueNode(BSTNodeElementosMenores<T> node, T element) {
-		if (node.getParent() != null && element.compareTo(node.getData()) >= 0) {
-			return getMaiorNoMenorQueNode(node.getParent(), element);
-		} else {
-			return node;
+	private int qtdMenores(BSTNodeElementosMenores<T> node, T element) {
+		int result = 0;
+		if (!node.isEmpty()) {
+			
+			if (node.getData().compareTo(element) < 0) {
+				result += 1 + size(node.getLeft());
+				result += qtdMenores(node.getRight(), element);
+			} else {
+				result += qtdMenores(node.getLeft(), element);
+			}
+			
 		}
+		return result;
 	}
 
 	@SuppressWarnings("unchecked")
