@@ -61,7 +61,7 @@
 | 35 | [Particiona Lomuto](https://github.com/Viniciuswps/tst-eda/blob/master/ParticionaLomuto/README.md) | [Java](https://github.com/Viniciuswps/tst-eda/tree/master/ParticionaLomuto/ParticionaLomuto.java) | 
 | 36 | [Particiona Hoare](https://github.com/Viniciuswps/tst-eda/blob/master/ParticionaHoare/README.md) | [Java](https://github.com/Viniciuswps/tst-eda/tree/master/ParticionaHoare/ParticionaHoare.java) | 
 | 37 | [Melhor Pivot](https://github.com/Viniciuswps/tst-eda/blob/master/MelhorPivot/README.md) | [Java](https://github.com/Viniciuswps/tst-eda/tree/master/MelhorPivot/MelhorPivot.java) | 
-| 38 | [Stooge Sort](https://github.com/Viniciuswps/tst-eda/blob/master/StoogeSort/README.md) | [Java](https://github.com/Viniciuswps/tst-eda/tree/master/StoogeSort/StoogeSort.java) | 
+| 38 | [Stooge Sort](https://github.com/viniciusbds/tst-eda/blob/master/StoogeSort/README.md) | [Java](https://github.com/viniciusbds/tst-eda/tree/master/StoogeSort/StoogeSort.java) | 
 | 39 | [Pilha com Array](https://github.com/Viniciuswps/tst-eda/blob/master/PilhaComArray/README.md) | [Java](https://github.com/Viniciuswps/tst-eda/tree/master/PilhaComArray/PilhaComArray.java) | 
 | 40 | [Fila com Array](https://github.com/Viniciuswps/tst-eda/blob/master/FilaComArray/README.md) | [Java](https://github.com/Viniciuswps/tst-eda/tree/master/FilaComArray/FilaComArray.java) | 
 | 41 | [Notacao Polonesa Reversa](https://github.com/Viniciuswps/tst-eda/blob/master/NotacaoPolonesaReversa/README.md) | [Java](https://github.com/Viniciuswps/tst-eda/tree/master/NotacaoPolonesaReversa/NotacaoPolonesaReversa.java) | 
@@ -72,22 +72,23 @@
 | 46 | [Word Cloud](https://github.com/Viniciusbds/tst-eda/blob/master/WordCloud/README.md) | [Java](https://github.com/Viniciuswps/tst-eda/tree/master/WordCloud/WordCloud.java) |
 | 47 | [HashSet](https://github.com/Viniciusbds/tst-eda/blob/master/HashSet/README.md) | [Java](https://github.com/Viniciuswps/tst-eda/tree/master/HashSet/HashSetImpl.java) |
 | 48 | [HT Probing Linear](https://github.com/Viniciusbds/tst-eda/blob/master/HTProbingLinear/README.md) | [Java](https://github.com/Viniciuswps/tst-eda/tree/master/HTProbingLinear/HTProbingLinear.java) |
-| 49 | [Matriz de Adjacência](https://github.com/Viniciusbds/tst-eda/blob/master/MatrizDeAdjacencia/README.md) | [Java](https://github.com/Viniciuswps/tst-eda/tree/master/MatrizDeAdjacencia/MatrizDeAdjacencia.java) |
+| 49 | [Matriz de Adjacência](https://github.com/viniciusbds/tst-eda/blob/master/MatrizDeAdjacencia/README.md) | [Java](https://github.com/Viniciuswps/tst-eda/tree/master/MatrizDeAdjacencia/MatrizDeAdjacencia.java) |
 | 50 | [Torre de Hanoi](https://github.com/Viniciusbds/tst-eda/blob/master/TorreDeHanoi/README.md) | [Java](https://github.com/Viniciuswps/tst-eda/tree/master/TorreDeHanoi/TorreDeHanoi.java) |
 | 51 | [Busca em **BST**](https://github.com/Viniciusbds/tst-eda/blob/master/BuscaBST/README.md) | [Java](https://github.com/Viniciuswps/tst-eda/tree/master/BuscaBST/BuscaBST.java) |
-| 52 | [Altura **BST**](https://github.com/Viniciusbds/tst-eda/blob/master/AlturaBST/README.md) | [Java](https://github.com/Viniciuswps/tst-eda/tree/master/AlturaBST/AlturaBST.java) |
+| 52 | [Altura **BST**](https://github.com/viniciusbds/tst-eda/blob/master/AlturaBST/README.md) | [Java](https://github.com/viniciusbds/tst-eda/tree/master/AlturaBST/AlturaBST.java) |
 | 53 | [Elementos Menores **BST**](https://github.com/Viniciusbds/tst-eda/blob/master/ElementosMenoresBST/README.md) | [Java](https://github.com/Viniciuswps/tst-eda/tree/master/ElementosMenoresBST/ElementosMenoresBST.java) |
-| 54 | [Min **BST**](https://github.com/Viniciusbds/tst-eda/blob/master/MinBST/README.md) | [Java](https://github.com/Viniciuswps/tst-eda/tree/master/MinBST/MinBST.java) |
-| 55 | [Max **BST**](https://github.com/Viniciusbds/tst-eda/blob/master/MaxBST/README.md) | [Java](https://github.com/Viniciuswps/tst-eda/tree/master/MaxBST/MaxBST.java) |
-| 56 | [Predecessor **BST**](https://github.com/Viniciusbds/tst-eda/blob/master/PredecessorBST/README.md) | [Java](https://github.com/Viniciuswps/tst-eda/tree/master/PredecessorBST/PredecessorBST.java) |
-| 57 | [Sucessor **BST**](https://github.com/Viniciusbds/tst-eda/blob/master/SucessorBST/README.md) | [Java](https://github.com/Viniciuswps/tst-eda/tree/master/SucessorBST/SucessorBST.java) |
-| 58 | [Conta Nós Internos **BST**](https://github.com/Viniciusbds/tst-eda/blob/master/ContaNosInternosBST/README.md) | [Java](https://github.com/Viniciuswps/tst-eda/tree/master/ContaNosInternosBST/ContaNosInternosBST.java) |
-| 59 | [Conta Folhas **BST**](https://github.com/Viniciusbds/tst-eda/blob/master/ContaFolhasBST/README.md) | [Java](https://github.com/Viniciuswps/tst-eda/tree/master/ContaFolhasBST/ContaFolhasBST.java) |
-| 60 | [Soma Folhas **BST**](https://github.com/Viniciusbds/tst-eda/blob/master/SomaFolhasBST/README.md) | [Java](https://github.com/Viniciuswps/tst-eda/tree/master/SomaFolhasBST/SomaFolhasBST.java) |
-| 61 | [Encaminhamento **BST**](https://github.com/Viniciusbds/tst-eda/blob/master/EncaminhamentoBST/README.md) | [Java](https://github.com/Viniciuswps/tst-eda/tree/master/EncaminhamentoBST/EncaminhamentoBST.java) |
-| 62 | [É Heap?](https://github.com/Viniciusbds/tst-eda/blob/master/EhHeap/README.md) | [Java](https://github.com/Viniciuswps/tst-eda/tree/master/EhHeap/EhHeap.java) |
-| 63 | [Build Heap](https://github.com/Viniciusbds/tst-eda/blob/master/BuildHeap/README.md) | [Java](https://github.com/Viniciuswps/tst-eda/tree/master/BuildHeap/BuildHeap.java) |
-| 64 | [Balance **BST**](https://github.com/Viniciusbds/tst-eda/blob/master/BalanceBST/README.md) | [Java](https://github.com/Viniciuswps/tst-eda/tree/master/BalanceBST/BalanceBST.java) |
+| 54 | [Min **BST**](https://github.com/viniciusbds/tst-eda/blob/master/MinBST/README.md) | [Java](https://github.com/Viniciuswps/tst-eda/tree/master/MinBST/MinBST.java) |
+| 55 | [Max **BST**](https://github.com/viniciusbds/tst-eda/blob/master/MaxBST/README.md) | [Java](https://github.com/Viniciuswps/tst-eda/tree/master/MaxBST/MaxBST.java) |
+| 56 | [Predecessor **BST**](https://github.com/viniciusbds/tst-eda/blob/master/PredecessorBST/README.md) | [Java](https://github.com/viniciusbds/tst-eda/tree/master/PredecessorBST/PredecessorBST.java) |
+| 57 | [Sucessor **BST**](https://github.com/viniciusbds/tst-eda/blob/master/SucessorBST/README.md) | [Java](https://github.com/Viniciuswps/tst-eda/tree/master/SucessorBST/SucessorBST.java) |
+| 58 | [Conta Nós Internos **BST**](https://github.com/viniciusbds/tst-eda/blob/master/ContaNosInternosBST/README.md) | [Java](https://github.com/Viniciuswps/tst-eda/tree/master/ContaNosInternosBST/ContaNosInternosBST.java) |
+| 59 | [Conta Folhas **BST**](https://github.com/viniciusbds/tst-eda/blob/master/ContaFolhasBST/README.md) | [Java](https://github.com/Viniciuswps/tst-eda/tree/master/ContaFolhasBST/ContaFolhasBST.java) |
+| 60 | [Soma Folhas **BST**](https://github.com/viniciusbds/tst-eda/blob/master/SomaFolhasBST/README.md) | [Java](https://github.com/viniciusbds/tst-eda/tree/master/SomaFolhasBST/SomaFolhasBST.java) |
+| 61 | [Encaminhamento **BST**](https://github.com/viniciusbds/tst-eda/blob/master/EncaminhamentoBST/README.md) | [Java](https://github.com/viniciusbds/tst-eda/tree/master/EncaminhamentoBST/EncaminhamentoBST.java) |
+| 62 | [É Heap?](https://github.com/viniciusbds/tst-eda/blob/master/EhHeap/README.md) | [Java](https://github.com/viniciusbds/tst-eda/tree/master/EhHeap/EhHeap.java) |
+| 63 | [Build Heap](https://github.com/viniciusbds/tst-eda/blob/master/BuildHeap/README.md) | [Java](https://github.com/viniciusbds/tst-eda/tree/master/BuildHeap/BuildHeap.java) |
+| 64 | [Balance **BST**](https://github.com/viniciusbds/tst-eda/blob/master/BalanceBST/README.md) | [Java](https://github.com/viniciusbds/tst-eda/tree/master/BalanceBST/BalanceBST.java) |
+| 65 | [Rotações **BST**](https://github.com/viniciusbds/tst-eda/blob/master/RotacoesBST/README.md) | [Java](https://github.com/viniciusbds/tst-eda/tree/master/RotacoesBST/RotacoesBST.java) |
 ------------------------------
 
 ## Problemas Legais
