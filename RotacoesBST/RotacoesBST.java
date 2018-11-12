@@ -69,7 +69,7 @@ class BSt<T extends Comparable<T>> {
 			}
 		}
 	}
-	
+
 	protected int height(BStNode<T> node) {
 		int result = -1;
 		if (!node.isEmpty()) {
@@ -77,7 +77,7 @@ class BSt<T extends Comparable<T>> {
 		}
 		return result;
 	}
-	
+
 	@SuppressWarnings("unchecked")
 	public T[] preOrder() {
 		List<Comparable<T>> lista = new ArrayList<>();
@@ -102,7 +102,7 @@ class BSt<T extends Comparable<T>> {
 			rebalance(root);
 		}
 	}
-	
+
 	public boolean estaBalanceada() {
 		return estaBalanceada(root);
 	}
@@ -110,7 +110,7 @@ class BSt<T extends Comparable<T>> {
 	private boolean estaBalanceada(BStNode<T> node) {
 		boolean balanceado = false;
 
-		if (node.isLeaf()) {
+		if (node.isLeaf() || node.isEmpty()) {
 			balanceado = true;
 		} else {
 			if (nodeBalanceado(node)) {
@@ -122,7 +122,7 @@ class BSt<T extends Comparable<T>> {
 				balanceado = estaBalanceada(node.getLeft()) && estaBalanceada(node.getRight());
 			}
 		}
-		
+
 		return balanceado;
 	}
 
