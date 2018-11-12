@@ -89,6 +89,8 @@
 | 63 | [Build Heap](https://github.com/viniciusbds/tst-eda/blob/master/BuildHeap/README.md) | [Java](https://github.com/viniciusbds/tst-eda/tree/master/BuildHeap/BuildHeap.java) |
 | 64 | [Balance **BST**](https://github.com/viniciusbds/tst-eda/blob/master/BalanceBST/README.md) | [Java](https://github.com/viniciusbds/tst-eda/tree/master/BalanceBST/BalanceBST.java) |
 | 65 | [Rotações **BST**](https://github.com/viniciusbds/tst-eda/blob/master/RotacoesBST/README.md) | [Java](https://github.com/viniciusbds/tst-eda/tree/master/RotacoesBST/RotacoesBST.java) |
+| 66 | [Elementos Maiores **BST**](https://github.com/viniciusbds/tst-eda/blob/master/ElementosMaioresBST/README.md) | [Java](https://github.com/viniciuswps/tst-eda/tree/master/ElementosMaioresBST/ElementosMaioresBST.java) |
+
 ------------------------------
 
 ## Problemas Legais
