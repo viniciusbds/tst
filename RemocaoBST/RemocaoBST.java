@@ -87,38 +87,65 @@ class Bst<T extends Comparable<T>> {
 	}
 
 	private void remove(BstNode<T> node) {
-		if (node.isLeaf()) {
-			node.setData(null);
-			node.setLeft(null);
-			node.setRight(null);
-		} else if (hasOneChild(node)) {
+		if (!node.isEmpty()) {
 
-			BstNode<T> child = node.getLeft();
-			if (child == null) {
-				child = node.getRight();
+			if (node.isLeaf()) {
+				node.setData(null);
+				node.setLeft(null);
+				node.setRight(null);
 			}
 
-			node.setData(child.getData());
+			else if (hasOneChild(node)) {
 
-			node.setLeft(child.getLeft());
-			if (child.getLeft() != null) {
-				child.getLeft().setParent(node);
-			}
-			node.setRight(child.getRight());
-			if (child.getRight() != null) {
-				child.getRight().setParent(node);
-			}
+				BstNode<T> child = node.getLeft();
+				if (child == null) {
+					child = node.getRight();
+				}
 
-		} else {
-			BstNode<T> sucessor = this.sucessor(node.getData());
-			node.setData(sucessor.getData());
-			remove(sucessor);
+				if (node == root) {
+					root = child;
+				} else {
+
+					if (isLeftChild(node)) {
+
+						if (!node.getLeft().isEmpty()) {
+							node.getParent().setLeft(node.getLeft());
+						} else {
+							node.getParent().setLeft(node.getRight());
+						}
+
+					}
+
+					else {
+
+						if (!node.getLeft().isEmpty()) {
+							node.getParent().setRight(node.getLeft());
+						} else {
+							node.getParent().setRight(node.getRight());
+						}
+
+					}
+
+					node.setData(child.getData());
+						
+				}
+
+			} else {
+				BstNode<T> sucessor = this.sucessor(node.getData());
+				node.setData(sucessor.getData());
+				remove(sucessor);
+			}
 		}
+
 	}
 
 	private boolean hasOneChild(BstNode<T> node) {
 		return !node.getLeft().isEmpty() && node.getRight().isEmpty()
 				|| node.getLeft().isEmpty() && !node.getRight().isEmpty();
+	}
+
+	private boolean isLeftChild(BstNode<T> node) {
+		return node.getParent() != null && node.getParent().getLeft() == node;
 	}
 
 	public BstNode<T> search(T element) {
