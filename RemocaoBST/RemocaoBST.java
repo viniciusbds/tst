@@ -96,38 +96,26 @@ class Bst<T extends Comparable<T>> {
 			}
 
 			else if (hasOneChild(node)) {
-
-				BstNode<T> child = node.getLeft();
-				if (child == null) {
-					child = node.getRight();
-				}
+				BstNode<T> child = getOnlyChild(node);
 
 				if (node == root) {
 					root = child;
 				} else {
-
 					if (isLeftChild(node)) {
-
 						if (!node.getLeft().isEmpty()) {
 							node.getParent().setLeft(node.getLeft());
 						} else {
 							node.getParent().setLeft(node.getRight());
 						}
-
 					}
 
 					else {
-
 						if (!node.getLeft().isEmpty()) {
 							node.getParent().setRight(node.getLeft());
 						} else {
 							node.getParent().setRight(node.getRight());
 						}
-
 					}
-
-					node.setData(child.getData());
-						
 				}
 
 			} else {
@@ -146,6 +134,18 @@ class Bst<T extends Comparable<T>> {
 
 	private boolean isLeftChild(BstNode<T> node) {
 		return node.getParent() != null && node.getParent().getLeft() == node;
+	}
+
+	/**
+	 * @param node que possui um único filho
+	 * @return retorna este único filho
+	 */
+	private BstNode<T> getOnlyChild(BstNode<T> node) {
+		BstNode<T> child = node.getLeft();
+		if (child == null) {
+			child = node.getRight();
+		}
+		return child;
 	}
 
 	public BstNode<T> search(T element) {
