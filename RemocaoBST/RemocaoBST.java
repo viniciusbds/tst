@@ -104,16 +104,18 @@ class Bst<T extends Comparable<T>> {
 					if (isLeftChild(node)) {
 						if (!node.getLeft().isEmpty()) {
 							node.getParent().setLeft(node.getLeft());
+							node.getLeft().setParent(node.getParent());
 						} else {
 							node.getParent().setLeft(node.getRight());
+							node.getRight().setParent(node.getParent());
 						}
-					}
-
-					else {
+					} else {
 						if (!node.getLeft().isEmpty()) {
 							node.getParent().setRight(node.getLeft());
+							node.getLeft().setParent(node.getParent());
 						} else {
 							node.getParent().setRight(node.getRight());
+							node.getRight().setParent(node.getParent());
 						}
 					}
 				}
