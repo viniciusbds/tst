@@ -108,6 +108,5 @@
 
 ------------------------------
 
-## Como Colaborar
+## [Como Colaborar](https://github.com/viniciusbds/tst-eda/blob/master/CONTRIBUTING.md)
 
-Caso **encontre um erro ou uma maneira mais eficiente / clara de resolver algum destes problemas**, sinta-se livre de fazer um fork, modificar e solicitar um pullrequest.
