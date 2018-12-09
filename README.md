@@ -106,7 +106,6 @@
 | 4 | [Potência Recursiva Elegante*](https://github.com/Viniciuswps/tst-eda/blob/master/PotenciaRecursiva/README.md) | [Java](https://github.com/Viniciuswps/tst-eda/blob/master/PotenciaRecursiva/solucaoElegante/SolucaoElegante.java) |
 | 5 | [Torre de Hanoi](https://github.com/Viniciusbds/tst-eda/blob/master/TorreDeHanoi/README.md) | [Java](https://github.com/Viniciuswps/tst-eda/tree/master/TorreDeHanoi/TorreDeHanoi.java) |
 
-------------------------------
 
-## [Como Colaborar](https://github.com/viniciusbds/tst-eda/blob/master/CONTRIBUTING.md)
+
 
