@@ -1,24 +1,21 @@
-# [Tst EDA](http://tst-eda.splab.ufcg.edu.br/)
-
-
-**Repositório com soluções para os problemas do Tst da disciplina Estrutura de Dados e Algoritmos UFCG 2018.2.**
-
-------------------------------
+# [TST EDA](http://tst-eda.splab.ufcg.edu.br/)
+> Repositório com soluções para os problemas do Tst da disciplina Estrutura de Dados e Algoritmos UFCG 2018.2.**
 
 ## Detalhes
+> Alguns detalhes importantes sobre o repositório.
 
-> Todos os algoritmos / soluções foram desenvolvidos na linguagem java.
+- Todos os algoritmos/soluções foram desenvolvidos na linguagem java.
 
-> Como o Tst já realiza testes automáticos durante as submissões, não foi necessário criar novos testes.
+- Como o Tst já realiza testes automáticos durante as submissões, não foi necessário criar novos testes.
 
->  Alguns métodos (como o swap e getArrayInteiros, por exemplo), por serem usados muitas vezes, poderiam ter sido extraídos para um pacote Util, optei por não fazer isso, pois o corretor do Tst não teria acesso a este pacote.
+-  Alguns métodos (como o swap e getArrayInteiros, por exemplo), por serem usados muitas vezes, poderiam ter sido extraídos para um pacote Util, optei por não fazer isso, pois o corretor do Tst não teria acesso a este pacote.
 
->  Os problemas no qual o nome está acompanhado com a palavra "Elegante" foram resolvidos de forma diferente do esperado pelo Tst, geralmente são mais "elegantes" por possuirem uma funcionalidade a mais ou outros fatores subjetivos. Portanto, em alguns casos, a resolução destes problemas não passam nos testes do Tst.
+-  Os problemas no qual o nome está acompanhado com a palavra "Elegante" foram resolvidos de forma diferente do esperado pelo Tst, geralmente são mais "elegantes" por possuirem uma funcionalidade a mais ou outros fatores subjetivos. Portanto, em alguns casos, a resolução destes problemas não passam nos testes do Tst.
 
-> Enfatizando, **seria possível o reuso de muito código nas implementações dos problemas aqui presentes, especialmente os que envolvem BST**. Não fiz reuso de código nesses problemas pelo fato do corretor do Tst não ter acesso a classes extras (como já foi dito anteriormente.).
------------------------------
+- Enfatizando, **seria possível o reuso de muito código nas implementações dos problemas aqui presentes, especialmente os que envolvem BST**. Não fiz reuso de código nesses problemas pelo fato do corretor do Tst não ter acesso a classes extras (como já foi dito anteriormente.).
 
 ## Lista de Problemas
+> Problemas resolvidos do TST.
 
 |   | Problema           | Solução | 
 | - | ------------------ | ------- |
@@ -92,10 +89,7 @@
 | 66 | [Elementos Maiores **BST**](https://github.com/viniciusbds/tst-eda/blob/master/ElementosMaioresBST/README.md) | [Java](https://github.com/viniciuswps/tst-eda/tree/master/ElementosMaioresBST/ElementosMaioresBST.java) |
 | 67 | [Remoção **BST**](https://github.com/viniciusbds/tst-eda/blob/master/RemocaoBST/README.md) | [Java](https://github.com/viniciuswps/tst-eda/tree/master/RemocaoBST/RemocaoBST.java) |
 
-------------------------------
-
 ## Problemas Legais
-
 > Problemas que merecem um destaque especial.
 
 |   | Problema           | Solução | 
@@ -105,7 +99,3 @@
 | 3 | [Teorema Mestre Elegante*](https://github.com/Viniciuswps/tst-eda/blob/master/TeoremaMestre/README.md) | [Java](https://github.com/Viniciuswps/tst-eda/tree/master/TeoremaMestre/SolucaoElegante/SolucaoElegante.java)|
 | 4 | [Potência Recursiva Elegante*](https://github.com/Viniciuswps/tst-eda/blob/master/PotenciaRecursiva/README.md) | [Java](https://github.com/Viniciuswps/tst-eda/blob/master/PotenciaRecursiva/solucaoElegante/SolucaoElegante.java) |
 | 5 | [Torre de Hanoi](https://github.com/Viniciusbds/tst-eda/blob/master/TorreDeHanoi/README.md) | [Java](https://github.com/Viniciuswps/tst-eda/tree/master/TorreDeHanoi/TorreDeHanoi.java) |
-
-
-
-
