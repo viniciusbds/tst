@@ -8,13 +8,13 @@ class BubbleSort {
 
 		int[] array = preencheArray();
 
-		bubleSort(array);
+		bubbleSort(array);
 
 		scan.close();
 
 	}
 
-	private static void bubleSort(int[] array) {
+	private static void bubbleSort(int[] array) {
 
 		boolean flag = false;
 		boolean ordenado = arrayOrdenado(array);
