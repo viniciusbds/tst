@@ -2,14 +2,11 @@ import java.util.Scanner;
 
 class BubbleSort {
 
+	static Scanner scan = new Scanner(System.in);
+	
 	public static void main(String[] args) {
 
-		Scanner scan = new Scanner(System.in);
-		String[] entrada = scan.nextLine().split(" ");
-		int[] array = new int[entrada.length];
-		for (int i = 0; i < entrada.length; i++) {
-			array[i] = Integer.parseInt(entrada[i]);
-		}
+		int[] array = preencheArray();
 
 		bubleSort(array);
 
@@ -57,6 +54,7 @@ class BubbleSort {
 		array[i] = array[j];
 		array[j] = aux;
 	}
+	
 
 	private static String imprimeArray(int[] array) {
 		String resultado = "";
@@ -68,6 +66,15 @@ class BubbleSort {
 		resultado += array[array.length - 1] + "";
 
 		return resultado;
+	}
+	
+	public static int[] preencheArray() {
+		String[] linha = scan.nextLine().split(" ");
+		int[] numeros = new int[linha.length];
+		for (int i = 0; i < linha.length; i++) {
+			numeros[i] = Integer.parseInt(linha[i]);
+		}
+		return numeros;
 	}
 
 }

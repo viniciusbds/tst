@@ -29,7 +29,7 @@ class BuscaBinaria {
 		int mid;
 
 		while (max >= min) {
-			mid = (int) Math.floor((max + min) / 2);
+			mid = Math.floorDiv((max + min), 2);
 			if (array[mid] == elemento) {
 				return mid;
 			} else if (array[mid] < elemento) {
