@@ -88,6 +88,7 @@
 | 65 | [Rotações **BST**](https://github.com/viniciusbds/tst-eda/blob/master/RotacoesBST/README.md) | [Java](https://github.com/viniciusbds/tst-eda/tree/master/RotacoesBST/RotacoesBST.java) |
 | 66 | [Elementos Maiores **BST**](https://github.com/viniciusbds/tst-eda/blob/master/ElementosMaioresBST/README.md) | [Java](https://github.com/viniciuswps/tst-eda/tree/master/ElementosMaioresBST/ElementosMaioresBST.java) |
 | 67 | [Remoção **BST**](https://github.com/viniciusbds/tst-eda/blob/master/RemocaoBST/README.md) | [Java](https://github.com/viniciuswps/tst-eda/tree/master/RemocaoBST/RemocaoBST.java) |
+| 68 | [Valor Mais Próximo **BST**](https://github.com/viniciusbds/tst-eda/blob/master/valorMaisProximoBST/README.md) | [Java](https://github.com/viniciuswps/tst-eda/tree/master/valorMaisProximoBST/valorMaisProximoBST.java) |
 
 ## Problemas Legais
 > Problemas que merecem um destaque especial.
