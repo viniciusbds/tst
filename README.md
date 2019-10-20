@@ -88,7 +88,16 @@
 | 65 | [Rotações **BST**](https://github.com/viniciusbds/tst-eda/blob/master/RotacoesBST/README.md) | [Java](https://github.com/viniciusbds/tst-eda/tree/master/RotacoesBST/RotacoesBST.java) |
 | 66 | [Elementos Maiores **BST**](https://github.com/viniciusbds/tst-eda/blob/master/ElementosMaioresBST/README.md) | [Java](https://github.com/viniciuswps/tst-eda/tree/master/ElementosMaioresBST/ElementosMaioresBST.java) |
 | 67 | [Remoção **BST**](https://github.com/viniciusbds/tst-eda/blob/master/RemocaoBST/README.md) | [Java](https://github.com/viniciuswps/tst-eda/tree/master/RemocaoBST/RemocaoBST.java) |
-| 68 | [Valor Mais Próximo **BST**](https://github.com/viniciusbds/tst-eda/blob/master/valorMaisProximoBST/README.md) | [Java](https://github.com/viniciuswps/tst-eda/tree/master/valorMaisProximoBST/valorMaisProximoBST.java) |
+| 68 | [Valor Mais Próximo **BST**](https://github.com/viniciusbds/tst-eda/blob/master/ValorMaisProximoBST/README.md) | [Java](https://github.com/viniciuswps/tst-eda/tree/master/ValorMaisProximoBST/ValorMaisProximoBST.java) |
+| 69 | Altura de uma Árvore | Not implemented |
+| 71 | Árvores similares | Not implemented |
+| 72 | Lista de Adjacencia | Not implemented |
+| 73 | BFS | Not implemented |
+| 74 | Expressão | Not implemented |
+| 75 | É árvore? | Not implemented |
+| 76 | Inverte Pilha sem Fila | Not implemented |
+| 77 | Word Cloud | Not implemented |
+| 78 | BFS Direita | Not implemented |
 
 ## Problemas Legais
 > Problemas que merecem um destaque especial.

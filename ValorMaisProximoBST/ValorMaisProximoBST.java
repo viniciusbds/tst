@@ -1,0 +1,3 @@
+class ValorMaisProximoBST {
+    // implementar
+}
