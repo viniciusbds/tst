@@ -92,12 +92,12 @@
 | 69 | Altura de uma Árvore | Not implemented |
 | 71 | Árvores similares | Not implemented |
 | 72 | Lista de Adjacencia | Not implemented |
-| 73 | BFS | Not implemented |
+| 73 | [BFS](https://github.com/viniciusbds/tst-eda/blob/master/BFS/README.md) | Not implemented |
 | 74 | Expressão | Not implemented |
 | 75 | É árvore? | Not implemented |
 | 76 | Inverte Pilha sem Fila | Not implemented |
 | 77 | Word Cloud | Not implemented |
-| 78 | BFS Direita | Not implemented |
+| 78 | [BFS Direita](https://github.com/viniciusbds/tst-eda/blob/master/BFSDireita/README.md) | Not implemented |
 
 ## Problemas Legais
 > Problemas que merecem um destaque especial.
